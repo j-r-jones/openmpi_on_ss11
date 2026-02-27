@@ -18,6 +18,7 @@ source $ROOT_DIR/sourceme_craympi.sh
 
 export MPICH_GPU_SUPPORT_ENABLED=1
 export MPICH_SMP_SINGLE_COPY_MODE=XPMEM
+export FI_CXI_RX_MATCH_MODE=hybrid
 # export FI_LOG_LEVEL=debug
 
 CMDS=("osu_bibw -b multiple D D" "osu_latency D D" "osu_bibw -b multiple H H" "osu_latency H H")
