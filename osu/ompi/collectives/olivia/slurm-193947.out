@@ -1,0 +1,4354 @@
+Starting job 193947 on gpu-1-[24-26,42,48-50,62-64,74-75,89-90,100-101] on Olivia at Mon Mar 2 11:01:12 CET 2026
+
+ROOT_DIR = /cluster/home/marcink/hpe_cug_paper/openmpi_on_ss11
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+-- srun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//mpi/collective/osu_alltoall -c D D
+cpu-bind=MASK - gpu-1-24, task  0  0 [886036]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-24, task  1  1 [886037]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  2  2 [886038]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  3  3 [886039]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  4  0 [898845]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-25, task  5  1 [898846]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 1 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 3 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-25, task  6  2 [898847]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 0 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 2 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-25, task  7  3 [898848]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task  8  0 [4114686]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-26, task  9  1 [4114687]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task 10  2 [4114688]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 48  0 [4124158]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-26, task 11  3 [4114689]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 49  1 [4124159]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 50  2 [4124160]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 51  3 [4124161]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 32  0 [4166696]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-63, task 33  1 [4166697]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 20  0 [4120959]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-63, task 34  2 [4166698]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 21  1 [4120960]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 40  0 [4114253]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-101, task 60  0 [4055727]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-48, task 16  0 [4128838]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-74, task 41  1 [4114254]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 61  1 [4055728]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 22  2 [4120961]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 42  2 [4114255]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 35  3 [4166699]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 17  1 [4128839]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 62  2 [4055729]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 4 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 6 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 5 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 7 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-74, task 43  3 [4114256]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 18  2 [4128840]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 23  3 [4120962]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 56  0 [4126633]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-100, task 57  1 [4126634]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 63  3 [4055730]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 19  3 [4128841]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 58  2 [4126635]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 59  3 [4126636]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 10 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 11 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-42, task 12  0 [4057653]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 9 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 8 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-42, task 13  1 [4057654]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 14  2 [4057655]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 52  0 [444449]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-90, task 53  1 [444450]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 48 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 49 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 50 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 51 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-90, task 54  2 [444451]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 15  3 [4057656]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 55  3 [444452]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 28  0 [4154217]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-50, task 24  0 [4128133]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-62, task 29  1 [4154218]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-50, task 25  1 [4128134]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 33 local 1 gpu 1 nic cxi1
+using SLURM envars
+cpu-bind=MASK - gpu-1-62, task 30  2 [4154219]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+rank 34 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-64, task 36  0 [4136781]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-50, task 26  2 [4128135]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 32 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 35 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-64, task 37  1 [4136782]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 21 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 40 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-75, task 44  0 [4095810]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 43 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 20 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-62, task 31  3 [4154220]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 42 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-64, task 38  2 [4136783]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+using SLURM envars
+rank 23 local 3 gpu 3 nic cxi3
+rank 41 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-50, task 27  3 [4128136]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 22 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-75, task 45  1 [4095811]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 46  2 [4095812]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 17 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-64, task 39  3 [4136784]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 18 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 16 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 19 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-75, task 47  3 [4095813]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 15 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 12 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 14 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 13 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 54 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 52 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 55 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 53 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 61 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 60 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 62 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 63 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 28 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 27 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 30 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 31 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 29 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 26 local 2 gpu 2 nic cxi2
+using SLURM envars
+using SLURM envars
+rank 24 local 0 gpu 0 nic cxi0
+rank 25 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 36 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 39 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 37 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 47 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 38 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 46 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 45 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 44 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 57 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 56 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 58 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 59 local 3 gpu 3 nic cxi3
+
+# OSU MPI All-to-All Personalized Exchange Latency Test v7.5.2
+# Datatype: MPI_CHAR.
+# Size       Avg Latency(us)        Validation
+1                      87.57              Pass
+2                      88.18              Pass
+4                     100.99              Pass
+8                      93.96              Pass
+16                     94.37              Pass
+32                     96.51              Pass
+64                     98.75              Pass
+128                   101.78              Pass
+256                   109.28              Pass
+512                   118.46              Pass
+1024                   98.51              Pass
+2048                  106.71              Pass
+4096                  112.70              Pass
+8192                  122.33              Pass
+16384                 157.31              Pass
+32768                 189.62              Pass
+65536                 243.77              Pass
+131072                472.94              Pass
+262144               1878.22              Pass
+524288               2838.61              Pass
+1048576              4787.76              Pass
+-- mpirun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//mpi/collective/osu_alltoall -c D D
+[gpu-1-89:4130298] Rank 48 bound to package[0][core:0-71]
+[gpu-1-89:4130298] Rank 49 bound to package[1][core:72-143]
+[gpu-1-89:4130298] Rank 50 bound to package[2][core:144-215]
+[gpu-1-89:4130298] Rank 51 bound to package[3][core:216-287]
+[gpu-1-101:4061835] Rank 61 bound to package[1][core:72-143]
+[gpu-1-101:4061835] Rank 60 bound to package[0][core:0-71]
+[gpu-1-101:4061835] Rank 62 bound to package[2][core:144-215]
+[gpu-1-101:4061835] Rank 63 bound to package[3][core:216-287]
+[gpu-1-25:899975] Rank 4 bound to package[0][core:0-71]
+[gpu-1-25:899975] Rank 5 bound to package[1][core:72-143]
+[gpu-1-25:899975] Rank 6 bound to package[2][core:144-215]
+[gpu-1-25:899975] Rank 7 bound to package[3][core:216-287]
+[gpu-1-62:4160326] Rank 28 bound to package[0][core:0-71]
+[gpu-1-62:4160326] Rank 29 bound to package[1][core:72-143]
+[gpu-1-62:4160326] Rank 30 bound to package[2][core:144-215]
+[gpu-1-64:4142904] Rank 36 bound to package[0][core:0-71]
+[gpu-1-62:4160326] Rank 31 bound to package[3][core:216-287]
+[gpu-1-64:4142904] Rank 37 bound to package[1][core:72-143]
+[gpu-1-64:4142904] Rank 38 bound to package[2][core:144-215]
+[gpu-1-64:4142904] Rank 39 bound to package[3][core:216-287]
+[gpu-1-24:887201] Rank 0 bound to package[0][core:0-71]
+[gpu-1-24:887201] Rank 1 bound to package[1][core:72-143]
+[gpu-1-24:887201] Rank 2 bound to package[2][core:144-215]
+[gpu-1-24:887201] Rank 3 bound to package[3][core:216-287]
+[gpu-1-50:4134250] Rank 24 bound to package[0][core:0-71]
+[gpu-1-50:4134250] Rank 25 bound to package[1][core:72-143]
+[gpu-1-50:4134250] Rank 26 bound to package[2][core:144-215]
+[gpu-1-50:4134250] Rank 27 bound to package[3][core:216-287]
+[gpu-1-49:4127070] Rank 20 bound to package[0][core:0-71]
+[gpu-1-49:4127070] Rank 21 bound to package[1][core:72-143]
+[gpu-1-49:4127070] Rank 22 bound to package[2][core:144-215]
+[gpu-1-49:4127070] Rank 23 bound to package[3][core:216-287]
+[gpu-1-74:4120365] Rank 40 bound to package[0][core:0-71]
+[gpu-1-74:4120365] Rank 41 bound to package[1][core:72-143]
+[gpu-1-74:4120365] Rank 42 bound to package[2][core:144-215]
+[gpu-1-74:4120365] Rank 43 bound to package[3][core:216-287]
+[gpu-1-63:4172809] Rank 32 bound to package[0][core:0-71]
+[gpu-1-63:4172809] Rank 33 bound to package[1][core:72-143]
+[gpu-1-63:4172809] Rank 34 bound to package[2][core:144-215]
+[gpu-1-63:4172809] Rank 35 bound to package[3][core:216-287]
+using OMPI envars
+rank 48 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 62 local 2 gpu 2 nic cxi2
+[gpu-1-42:4063739] Rank 12 bound to package[0][core:0-71]
+[gpu-1-42:4063739] Rank 13 bound to package[1][core:72-143]
+[gpu-1-42:4063739] Rank 14 bound to package[2][core:144-215]
+[gpu-1-42:4063739] Rank 15 bound to package[3][core:216-287]
+[gpu-1-26:4120804] Rank 8 bound to package[0][core:0-71]
+[gpu-1-26:4120804] Rank 9 bound to package[1][core:72-143]
+[gpu-1-26:4120804] Rank 10 bound to package[2][core:144-215]
+using OMPI envars
+[gpu-1-26:4120804] Rank 11 bound to package[3][core:216-287]
+rank 50 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 49 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 6 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 51 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 36 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 60 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 61 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 63 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 28 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 1 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 4 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 5 local 1 gpu 1 nic cxi1
+using OMPI envars
+[gpu-1-90:450560] Rank 52 bound to package[0][core:0-71]
+rank 7 local 3 gpu 3 nic cxi3
+[gpu-1-90:450560] Rank 53 bound to package[1][core:72-143]
+[gpu-1-90:450560] Rank 54 bound to package[2][core:144-215]
+using OMPI envars
+rank 22 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 37 local 1 gpu 1 nic cxi1
+[gpu-1-90:450560] Rank 55 bound to package[3][core:216-287]
+using OMPI envars
+rank 30 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 31 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 38 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 29 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 39 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 0 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 24 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 3 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+rank 2 local 2 gpu 2 nic cxi2
+rank 34 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 27 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 26 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 25 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 21 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 40 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 42 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 20 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 23 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 32 local 0 gpu 0 nic cxi0
+using OMPI envars
+using OMPI envars
+rank 41 local 1 gpu 1 nic cxi1
+rank 43 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 33 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 35 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 15 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 12 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 10 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 8 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 11 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 9 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 13 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 54 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 14 local 2 gpu 2 nic cxi2
+[gpu-1-75:4101922] Rank 44 bound to package[0][core:0-71]
+[gpu-1-75:4101922] Rank 45 bound to package[1][core:72-143]
+[gpu-1-75:4101922] Rank 46 bound to package[2][core:144-215]
+[gpu-1-75:4101922] Rank 47 bound to package[3][core:216-287]
+using OMPI envars
+rank 52 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 53 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 55 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 46 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 44 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 45 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 47 local 3 gpu 3 nic cxi3
+[gpu-1-100:4132743] Rank 56 bound to package[0][core:0-71]
+[gpu-1-100:4132743] Rank 57 bound to package[1][core:72-143]
+[gpu-1-100:4132743] Rank 58 bound to package[2][core:144-215]
+[gpu-1-100:4132743] Rank 59 bound to package[3][core:216-287]
+using OMPI envars
+rank 57 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 56 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 58 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 59 local 3 gpu 3 nic cxi3
+[gpu-1-48:4134947] Rank 16 bound to package[0][core:0-71]
+[gpu-1-48:4134947] Rank 17 bound to package[1][core:72-143]
+[gpu-1-48:4134947] Rank 18 bound to package[2][core:144-215]
+[gpu-1-48:4134947] Rank 19 bound to package[3][core:216-287]
+using OMPI envars
+rank 17 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 18 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 19 local 3 gpu 3 nic cxi3
+rank 16 local 0 gpu 0 nic cxi0
+
+# OSU MPI All-to-All Personalized Exchange Latency Test v7.5.2
+# Datatype: MPI_CHAR.
+# Size       Avg Latency(us)        Validation
+1                      86.94              Pass
+2                      88.46              Pass
+4                      91.68              Pass
+8                      93.17              Pass
+16                     94.82              Pass
+32                     96.29              Pass
+64                     98.46              Pass
+128                   101.88              Pass
+256                   108.75              Pass
+512                   117.83              Pass
+1024                   98.87              Pass
+2048                  107.33              Pass
+4096                  113.58              Pass
+8192                  123.40              Pass
+16384                 159.58              Pass
+32768                 192.03              Pass
+65536                 246.08              Pass
+131072                486.16              Pass
+262144               1892.72              Pass
+524288               2851.52              Pass
+1048576              4791.55              Pass
+-- srun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//mpi/collective/osu_allreduce -c D D
+cpu-bind=MASK - gpu-1-64, task 36  0 [4148821]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-64, task 37  1 [4148822]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 28  0 [4166229]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-64, task 38  2 [4148823]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 29  1 [4166230]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  4  0 [900765]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-62, task 30  2 [4166231]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 39  3 [4148824]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  5  1 [900766]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 31  3 [4166232]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  6  2 [900767]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 16  0 [4140870]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-63, task 32  0 [4178713]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-63, task 33  1 [4178714]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 17  1 [4140871]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  7  3 [900768]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  0  0 [887995]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-50, task 24  0 [4140160]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-63, task 34  2 [4178715]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 20  0 [4132978]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-50, task 25  1 [4140161]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  1  1 [887996]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 18  2 [4140872]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  2  2 [887997]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-50, task 26  2 [4140162]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task  8  0 [4126710]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-49, task 21  1 [4132979]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 22  2 [4132980]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task  9  1 [4126711]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 35  3 [4178716]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 19  3 [4140873]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-50, task 27  3 [4140163]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  3  3 [887998]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 52  0 [456465]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-49, task 23  3 [4132981]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task 10  2 [4126712]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 53  1 [456466]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 60  0 [4067746]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 36 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-90, task 54  2 [456467]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 61  1 [4067747]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 37 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-26, task 11  3 [4126713]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 62  2 [4067748]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 48  0 [4136204]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-90, task 55  3 [456468]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 49  1 [4136205]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 39 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 38 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-89, task 50  2 [4136206]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 30 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-42, task 12  0 [4069649]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 31 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 28 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-101, task 63  3 [4067749]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 29 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-42, task 13  1 [4069650]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 40  0 [4126269]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-89, task 51  3 [4136207]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 6 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 5 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 4 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-42, task 14  2 [4069651]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 7 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-74, task 41  1 [4126270]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 42  2 [4126271]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 34 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-42, task 15  3 [4069652]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 16 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 1 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 33 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 32 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 0 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 35 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 25 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 3 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-74, task 43  3 [4126272]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 2 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 27 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 24 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 26 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 17 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 19 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 18 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 21 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-75, task 44  0 [4107828]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 23 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 22 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 20 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-75, task 45  1 [4107829]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 46  2 [4107830]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 56  0 [4138649]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 11 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 8 local 0 gpu 0 nic cxi0
+using SLURM envars
+using SLURM envars
+rank 55 local 3 gpu 3 nic cxi3
+rank 10 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 54 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 9 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-100, task 57  1 [4138650]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 53 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 52 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-100, task 58  2 [4138651]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 62 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-75, task 47  3 [4107831]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 48 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 63 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 50 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 61 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 60 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 49 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 51 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-100, task 59  3 [4138652]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 15 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 12 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 13 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 14 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 40 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 43 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 42 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 41 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 46 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 47 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 45 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 44 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 56 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 57 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 59 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 58 local 2 gpu 2 nic cxi2
+
+# OSU MPI Allreduce Latency Test v7.5.2
+# Datatype: MPI_INT.
+# Size       Avg Latency(us)        Validation
+4                      35.77              Pass
+8                      35.23              Pass
+16                     35.32              Pass
+32                     35.76              Pass
+64                     52.70              Pass
+128                    54.37              Pass
+256                    61.79              Pass
+512                    63.64              Pass
+1024                   69.13              Pass
+2048                   73.55              Pass
+4096                   84.58              Pass
+8192                   84.72              Pass
+16384                  99.29              Pass
+32768                 136.73              Pass
+65536                 155.65              Pass
+131072                235.48              Pass
+262144                408.32              Pass
+524288                746.80              Pass
+1048576              1433.04              Pass
+-- mpirun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//mpi/collective/osu_allreduce -c D D
+[gpu-1-74:4127510] Rank 40 bound to package[0][core:0-71]
+[gpu-1-74:4127510] Rank 41 bound to package[1][core:72-143]
+[gpu-1-74:4127510] Rank 42 bound to package[2][core:144-215]
+[gpu-1-74:4127510] Rank 43 bound to package[3][core:216-287]
+[gpu-1-64:4150074] Rank 36 bound to package[0][core:0-71]
+[gpu-1-64:4150074] Rank 37 bound to package[1][core:72-143]
+[gpu-1-64:4150074] Rank 38 bound to package[2][core:144-215]
+[gpu-1-64:4150074] Rank 39 bound to package[3][core:216-287]
+[gpu-1-100:4139890] Rank 56 bound to package[0][core:0-71]
+[gpu-1-100:4139890] Rank 57 bound to package[1][core:72-143]
+[gpu-1-100:4139890] Rank 58 bound to package[2][core:144-215]
+[gpu-1-100:4139890] Rank 59 bound to package[3][core:216-287]
+[gpu-1-26:4127951] Rank 8 bound to package[0][core:0-71]
+[gpu-1-48:4142111] Rank 16 bound to package[0][core:0-71]
+[gpu-1-48:4142111] Rank 17 bound to package[1][core:72-143]
+[gpu-1-26:4127951] Rank 9 bound to package[1][core:72-143]
+[gpu-1-42:4070890] Rank 12 bound to package[0][core:0-71]
+[gpu-1-48:4142111] Rank 18 bound to package[2][core:144-215]
+[gpu-1-26:4127951] Rank 10 bound to package[2][core:144-215]
+[gpu-1-42:4070890] Rank 13 bound to package[1][core:72-143]
+[gpu-1-42:4070890] Rank 14 bound to package[2][core:144-215]
+[gpu-1-42:4070890] Rank 15 bound to package[3][core:216-287]
+[gpu-1-48:4142111] Rank 19 bound to package[3][core:216-287]
+[gpu-1-26:4127951] Rank 11 bound to package[3][core:216-287]
+[gpu-1-90:457706] Rank 52 bound to package[0][core:0-71]
+[gpu-1-90:457706] Rank 53 bound to package[1][core:72-143]
+[gpu-1-90:457706] Rank 54 bound to package[2][core:144-215]
+[gpu-1-90:457706] Rank 55 bound to package[3][core:216-287]
+[gpu-1-89:4137445] Rank 48 bound to package[0][core:0-71]
+[gpu-1-89:4137445] Rank 49 bound to package[1][core:72-143]
+[gpu-1-89:4137445] Rank 50 bound to package[2][core:144-215]
+[gpu-1-101:4068987] Rank 60 bound to package[0][core:0-71]
+[gpu-1-101:4068987] Rank 61 bound to package[1][core:72-143]
+[gpu-1-101:4068987] Rank 62 bound to package[2][core:144-215]
+[gpu-1-89:4137445] Rank 51 bound to package[3][core:216-287]
+[gpu-1-101:4068987] Rank 63 bound to package[3][core:216-287]
+[gpu-1-75:4109070] Rank 44 bound to package[0][core:0-71]
+[gpu-1-75:4109070] Rank 45 bound to package[1][core:72-143]
+[gpu-1-75:4109070] Rank 46 bound to package[2][core:144-215]
+[gpu-1-75:4109070] Rank 47 bound to package[3][core:216-287]
+using OMPI envars
+rank 40 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 42 local 2 gpu 2 nic cxi2
+[gpu-1-50:4141402] Rank 24 bound to package[0][core:0-71]
+[gpu-1-50:4141402] Rank 25 bound to package[1][core:72-143]
+[gpu-1-50:4141402] Rank 26 bound to package[2][core:144-215]
+[gpu-1-50:4141402] Rank 27 bound to package[3][core:216-287]
+using OMPI envars
+rank 43 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 41 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 36 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 57 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 37 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 17 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 56 local 0 gpu 0 nic cxi0
+[gpu-1-63:4179956] Rank 32 bound to package[0][core:0-71]
+[gpu-1-63:4179956] Rank 33 bound to package[1][core:72-143]
+[gpu-1-63:4179956] Rank 34 bound to package[2][core:144-215]
+using OMPI envars
+rank 12 local 0 gpu 0 nic cxi0
+[gpu-1-63:4179956] Rank 35 bound to package[3][core:216-287]
+using OMPI envars
+rank 16 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 58 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 38 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 48 local 0 gpu 0 nic cxi0
+[gpu-1-62:4167470] Rank 28 bound to package[0][core:0-71]
+[gpu-1-62:4167470] Rank 29 bound to package[1][core:72-143]
+[gpu-1-62:4167470] Rank 30 bound to package[2][core:144-215]
+using OMPI envars
+rank 59 local 3 gpu 3 nic cxi3
+using OMPI envars
+[gpu-1-25:901428] Rank 4 bound to package[0][core:0-71]
+rank 39 local 3 gpu 3 nic cxi3
+[gpu-1-25:901428] Rank 5 bound to package[1][core:72-143]
+using OMPI envars
+rank 61 local 1 gpu 1 nic cxi1
+[gpu-1-25:901428] Rank 6 bound to package[2][core:144-215]
+[gpu-1-62:4167470] Rank 31 bound to package[3][core:216-287]
+[gpu-1-25:901428] Rank 7 bound to package[3][core:216-287]
+using OMPI envars
+rank 52 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 46 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 15 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 50 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 62 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 18 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 60 local 0 gpu 0 nic cxi0
+using OMPI envars
+using OMPI envars
+rank 10 local 2 gpu 2 nic cxi2
+rank 19 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 63 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 53 local 1 gpu 1 nic cxi1
+using OMPI envars
+using OMPI envars
+rank 13 local 1 gpu 1 nic cxi1
+rank 55 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+rank 54 local 2 gpu 2 nic cxi2
+rank 11 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+rank 8 local 0 gpu 0 nic cxi0
+rank 14 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 9 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 49 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 51 local 3 gpu 3 nic cxi3
+[gpu-1-49:4134221] Rank 20 bound to package[0][core:0-71]
+[gpu-1-49:4134221] Rank 21 bound to package[1][core:72-143]
+[gpu-1-49:4134221] Rank 22 bound to package[2][core:144-215]
+using OMPI envars
+[gpu-1-49:4134221] Rank 23 bound to package[3][core:216-287]
+rank 45 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 47 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 44 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 24 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 27 local 3 gpu 3 nic cxi3
+[gpu-1-24:888698] Rank 0 bound to package[0][core:0-71]
+[gpu-1-24:888698] Rank 1 bound to package[1][core:72-143]
+[gpu-1-24:888698] Rank 2 bound to package[2][core:144-215]
+[gpu-1-24:888698] Rank 3 bound to package[3][core:216-287]
+using OMPI envars
+rank 26 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 25 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 34 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 4 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 32 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 33 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 35 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 30 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 5 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 6 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 28 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 7 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 31 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 20 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 29 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 21 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 22 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 23 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 0 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 1 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 3 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 2 local 2 gpu 2 nic cxi2
+
+# OSU MPI Allreduce Latency Test v7.5.2
+# Datatype: MPI_INT.
+# Size       Avg Latency(us)        Validation
+4                      35.75              Pass
+8                      35.84              Pass
+16                     35.42              Pass
+32                     36.13              Pass
+64                     52.65              Pass
+128                    54.44              Pass
+256                    61.65              Pass
+512                    63.30              Pass
+1024                   68.87              Pass
+2048                   73.59              Pass
+4096                   84.91              Pass
+8192                   83.95              Pass
+16384                  98.51              Pass
+32768                 136.35              Pass
+65536                 154.94              Pass
+131072                236.82              Pass
+262144                411.46              Pass
+524288                751.62              Pass
+1048576              1434.92              Pass
+-- srun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//mpi/collective/osu_allgather -c D D
+cpu-bind=MASK - gpu-1-48, task 16  0 [4143325]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-48, task 17  1 [4143326]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 18  2 [4143327]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 20  0 [4135435]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-48, task 19  3 [4143328]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task  8  0 [4129165]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-49, task 21  1 [4135436]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task  9  1 [4129166]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 22  2 [4135437]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 60  0 [4070202]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-26, task 10  2 [4129167]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 61  1 [4070203]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 36  0 [4151301]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-49, task 23  3 [4135438]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 12  0 [4072104]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-26, task 11  3 [4129168]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 62  2 [4070204]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 37  1 [4151302]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 13  1 [4072105]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 38  2 [4151303]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 14  2 [4072106]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 39  3 [4151304]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 63  3 [4070205]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 15  3 [4072107]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  0  0 [889392]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 17 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-24, task  1  1 [889393]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 48  0 [4138659]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-24, task  2  2 [889394]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 18 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 16 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 19 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-89, task 49  1 [4138660]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 40  0 [4128724]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-89, task 50  2 [4138661]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  3  3 [889395]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 41  1 [4128725]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 22 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 10 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-74, task 42  2 [4128726]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 51  3 [4138662]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 32  0 [4181170]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 8 local 0 gpu 0 nic cxi0
+using SLURM envars
+using SLURM envars
+rank 20 local 0 gpu 0 nic cxi0
+rank 11 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 36 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 9 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 21 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 23 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-50, task 24  0 [4142617]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-63, task 33  1 [4181171]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 43  3 [4128727]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 34  2 [4181172]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 52  0 [458920]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 15 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-50, task 25  1 [4142618]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 37 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-50, task 26  2 [4142619]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 53  1 [458921]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 12 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 39 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 60 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 38 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 61 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-90, task 54  2 [458922]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 62 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 63 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-63, task 35  3 [4181173]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  4  0 [902102]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 13 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 14 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-50, task 27  3 [4142620]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  5  1 [902103]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 55  3 [458923]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  6  2 [902104]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  7  3 [902105]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 2 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 48 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-100, task 56  0 [4141104]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 1 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 3 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 0 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-75, task 44  0 [4110284]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-100, task 57  1 [4141105]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 50 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-75, task 45  1 [4110285]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 58  2 [4141106]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 46  2 [4110286]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 49 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 51 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 42 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-62, task 28  0 [4168684]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 41 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 40 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 34 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-100, task 59  3 [4141107]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 43 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-62, task 29  1 [4168685]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 47  3 [4110287]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 30  2 [4168686]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 27 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 24 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 33 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 54 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 35 local 3 gpu 3 nic cxi3
+using SLURM envars
+using SLURM envars
+rank 32 local 0 gpu 0 nic cxi0
+rank 26 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-62, task 31  3 [4168687]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 25 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 55 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 52 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 53 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 6 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 7 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 5 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 4 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 57 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 46 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 58 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 56 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 47 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 59 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 45 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 44 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 30 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 29 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 31 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 28 local 0 gpu 0 nic cxi0
+
+# OSU MPI Allgather Latency Test v7.5.2
+# Datatype: MPI_CHAR.
+# Size       Avg Latency(us)        Validation
+1                      28.69              Pass
+2                      28.90              Pass
+4                      31.03              Pass
+8                      31.92              Pass
+16                     34.11              Pass
+32                     35.99              Pass
+64                     37.00              Pass
+128                    40.35              Pass
+256                    44.38              Pass
+512                    49.42              Pass
+1024                   64.15              Pass
+2048                   81.89              Pass
+4096                  109.90              Pass
+8192                  154.84              Pass
+16384                 426.20              Pass
+32768                 762.61              Pass
+65536                1457.56              Pass
+131072               2857.82              Pass
+262144               5821.08              Pass
+524288              11894.72              Pass
+1048576             24505.41              Pass
+-- mpirun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//mpi/collective/osu_allgather -c D D
+[gpu-1-64:4156474] Rank 36 bound to package[0][core:0-71]
+[gpu-1-64:4156474] Rank 37 bound to package[1][core:72-143]
+[gpu-1-64:4156474] Rank 38 bound to package[2][core:144-215]
+[gpu-1-64:4156474] Rank 39 bound to package[3][core:216-287]
+[gpu-1-63:4186333] Rank 32 bound to package[0][core:0-71]
+[gpu-1-63:4186333] Rank 33 bound to package[1][core:72-143]
+[gpu-1-63:4186333] Rank 34 bound to package[2][core:144-215]
+[gpu-1-63:4186333] Rank 35 bound to package[3][core:216-287]
+[gpu-1-90:464079] Rank 52 bound to package[0][core:0-71]
+[gpu-1-90:464079] Rank 53 bound to package[1][core:72-143]
+[gpu-1-90:464079] Rank 54 bound to package[2][core:144-215]
+[gpu-1-48:4148484] Rank 16 bound to package[0][core:0-71]
+[gpu-1-90:464079] Rank 55 bound to package[3][core:216-287]
+[gpu-1-48:4148484] Rank 17 bound to package[1][core:72-143]
+[gpu-1-48:4148484] Rank 18 bound to package[2][core:144-215]
+[gpu-1-48:4148484] Rank 19 bound to package[3][core:216-287]
+[gpu-1-101:4075360] Rank 60 bound to package[0][core:0-71]
+[gpu-1-101:4075360] Rank 61 bound to package[1][core:72-143]
+[gpu-1-101:4075360] Rank 62 bound to package[2][core:144-215]
+[gpu-1-101:4075360] Rank 63 bound to package[3][core:216-287]
+[gpu-1-100:4146263] Rank 56 bound to package[0][core:0-71]
+[gpu-1-100:4146263] Rank 57 bound to package[1][core:72-143]
+[gpu-1-100:4146263] Rank 58 bound to package[2][core:144-215]
+[gpu-1-100:4146263] Rank 59 bound to package[3][core:216-287]
+[gpu-1-50:4147778] Rank 24 bound to package[0][core:0-71]
+[gpu-1-50:4147778] Rank 25 bound to package[1][core:72-143]
+[gpu-1-50:4147778] Rank 26 bound to package[2][core:144-215]
+[gpu-1-50:4147778] Rank 27 bound to package[3][core:216-287]
+using OMPI envars
+[gpu-1-42:4077236] Rank 12 bound to package[0][core:0-71]
+[gpu-1-42:4077236] Rank 13 bound to package[1][core:72-143]
+[gpu-1-42:4077236] Rank 14 bound to package[2][core:144-215]
+[gpu-1-42:4077236] Rank 15 bound to package[3][core:216-287]
+rank 36 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 37 local 1 gpu 1 nic cxi1
+[gpu-1-24:890389] Rank 0 bound to package[0][core:0-71]
+[gpu-1-24:890389] Rank 1 bound to package[1][core:72-143]
+[gpu-1-24:890389] Rank 2 bound to package[2][core:144-215]
+[gpu-1-24:890389] Rank 3 bound to package[3][core:216-287]
+[gpu-1-26:4134324] Rank 8 bound to package[0][core:0-71]
+[gpu-1-26:4134324] Rank 9 bound to package[1][core:72-143]
+[gpu-1-26:4134324] Rank 10 bound to package[2][core:144-215]
+[gpu-1-26:4134324] Rank 11 bound to package[3][core:216-287]
+using OMPI envars
+rank 32 local 0 gpu 0 nic cxi0
+[gpu-1-89:4143818] Rank 48 bound to package[0][core:0-71]
+using OMPI envars
+[gpu-1-89:4143818] Rank 49 bound to package[1][core:72-143]
+rank 17 local 1 gpu 1 nic cxi1
+[gpu-1-89:4143818] Rank 50 bound to package[2][core:144-215]
+[gpu-1-89:4143818] Rank 51 bound to package[3][core:216-287]
+[gpu-1-49:4140592] Rank 20 bound to package[0][core:0-71]
+[gpu-1-49:4140592] Rank 21 bound to package[1][core:72-143]
+[gpu-1-49:4140592] Rank 22 bound to package[2][core:144-215]
+using OMPI envars
+rank 57 local 1 gpu 1 nic cxi1
+using OMPI envars
+using OMPI envars
+[gpu-1-49:4140592] Rank 23 bound to package[3][core:216-287]
+rank 38 local 2 gpu 2 nic cxi2
+rank 52 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 39 local 3 gpu 3 nic cxi3
+[gpu-1-74:4133883] Rank 40 bound to package[0][core:0-71]
+[gpu-1-74:4133883] Rank 41 bound to package[1][core:72-143]
+[gpu-1-74:4133883] Rank 42 bound to package[2][core:144-215]
+using OMPI envars
+rank 16 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 54 local 2 gpu 2 nic cxi2
+[gpu-1-74:4133883] Rank 43 bound to package[3][core:216-287]
+using OMPI envars
+rank 56 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 34 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 61 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 55 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 33 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 62 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 35 local 3 gpu 3 nic cxi3
+rank 19 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+rank 53 local 1 gpu 1 nic cxi1
+rank 18 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 60 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 58 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 63 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 59 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 24 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 12 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 15 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 27 local 3 gpu 3 nic cxi3
+[gpu-1-75:4115443] Rank 44 bound to package[0][core:0-71]
+[gpu-1-75:4115443] Rank 45 bound to package[1][core:72-143]
+[gpu-1-75:4115443] Rank 46 bound to package[2][core:144-215]
+[gpu-1-75:4115443] Rank 47 bound to package[3][core:216-287]
+using OMPI envars
+rank 1 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 26 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 25 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 0 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 13 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 14 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 20 local 0 gpu 0 nic cxi0
+[gpu-1-62:4173844] Rank 28 bound to package[0][core:0-71]
+[gpu-1-62:4173844] Rank 29 bound to package[1][core:72-143]
+[gpu-1-25:903055] Rank 4 bound to package[0][core:0-71]
+[gpu-1-62:4173844] Rank 30 bound to package[2][core:144-215]
+[gpu-1-25:903055] Rank 5 bound to package[1][core:72-143]
+[gpu-1-25:903055] Rank 6 bound to package[2][core:144-215]
+[gpu-1-62:4173844] Rank 31 bound to package[3][core:216-287]
+[gpu-1-25:903055] Rank 7 bound to package[3][core:216-287]
+using OMPI envars
+rank 48 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 3 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 2 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 49 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 50 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 8 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 21 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 10 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 51 local 3 gpu 3 nic cxi3
+rank 11 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 9 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 22 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 23 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 42 local 2 gpu 2 nic cxi2
+rank 40 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 43 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 41 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 44 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 46 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 45 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 4 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 47 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 28 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 30 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 7 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 31 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 5 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 29 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 6 local 2 gpu 2 nic cxi2
+
+# OSU MPI Allgather Latency Test v7.5.2
+# Datatype: MPI_CHAR.
+# Size       Avg Latency(us)        Validation
+1                      29.08              Pass
+2                      29.17              Pass
+4                      31.37              Pass
+8                      32.12              Pass
+16                     34.42              Pass
+32                     36.29              Pass
+64                     37.10              Pass
+128                    39.84              Pass
+256                    44.22              Pass
+512                    48.88              Pass
+1024                   63.76              Pass
+2048                   81.56              Pass
+4096                  108.67              Pass
+8192                  154.42              Pass
+16384                 426.31              Pass
+32768                 760.28              Pass
+65536                1458.55              Pass
+131072               2859.56              Pass
+262144               5815.12              Pass
+524288              11944.06              Pass
+1048576             24555.97              Pass
+-- srun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//mpi/collective/osu_alltoall -c H H
+cpu-bind=MASK - gpu-1-48, task 16  0 [4153681]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-48, task 17  1 [4153682]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 18  2 [4153683]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 19  3 [4153684]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  4  0 [904042]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-25, task  5  1 [904043]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  6  2 [904044]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 12  0 [4082391]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-50, task 24  0 [4152958]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-25, task  7  3 [904045]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 32  0 [4191511]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-42, task 13  1 [4082392]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 17 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-50, task 25  1 [4152959]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 33  1 [4191512]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 14  2 [4082393]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 34  2 [4191513]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 48  0 [4148998]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-50, task 26  2 [4152960]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 16 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-89, task 49  1 [4148999]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 56  0 [4151440]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-42, task 15  3 [4082394]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 19 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 18 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-89, task 50  2 [4149000]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 35  3 [4191514]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 52  0 [469256]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-100, task 57  1 [4151441]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-50, task 27  3 [4152961]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 58  2 [4151442]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 53  1 [469257]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 20  0 [4145777]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-89, task 51  3 [4149001]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 54  2 [469258]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 21  1 [4145778]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 59  3 [4151443]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 22  2 [4145779]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task  8  0 [4139502]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-90, task 55  3 [469259]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  0  0 [891380]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-26, task  9  1 [4139503]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 28  0 [4179027]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-26, task 10  2 [4139504]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  1  1 [891381]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 23  3 [4145780]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 29  1 [4179028]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  2  2 [891382]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 6 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-62, task 30  2 [4179029]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 4 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-101, task 60  0 [4080539]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 7 local 3 gpu 3 nic cxi3
+using SLURM envars
+cpu-bind=MASK - gpu-1-26, task 11  3 [4139505]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+rank 5 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-64, task 36  0 [4161665]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-101, task 61  1 [4080540]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 15 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-24, task  3  3 [891383]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 37  1 [4161666]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 12 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-101, task 62  2 [4080541]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 35 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-62, task 31  3 [4179030]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 44  0 [4120626]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-64, task 38  2 [4161667]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 34 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-75, task 45  1 [4120627]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 13 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 32 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 33 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 14 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-75, task 46  2 [4120628]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 27 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 48 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-101, task 63  3 [4080542]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 39  3 [4161668]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 24 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 26 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 51 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 25 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-75, task 47  3 [4120629]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 50 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 49 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 59 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 56 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 54 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 57 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 58 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 55 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 52 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 53 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 22 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 0 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 21 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 23 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 20 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 11 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 8 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 3 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 10 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 9 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 28 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 1 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-74, task 40  0 [4139066]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 30 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 2 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 31 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 36 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 29 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-74, task 41  1 [4139067]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 42  2 [4139068]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 60 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 38 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 46 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 39 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 37 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 62 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 61 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 47 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 63 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-74, task 43  3 [4139069]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 45 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 44 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 43 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 40 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 42 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 41 local 1 gpu 1 nic cxi1
+
+# OSU MPI All-to-All Personalized Exchange Latency Test v7.5.2
+# Datatype: MPI_CHAR.
+# Size       Avg Latency(us)        Validation
+1                      87.76              Pass
+2                      88.44              Pass
+4                      92.04              Pass
+8                      93.62              Pass
+16                     94.45              Pass
+32                     96.79              Pass
+64                     98.28              Pass
+128                   102.69              Pass
+256                   109.28              Pass
+512                   118.81              Pass
+1024                   99.18              Pass
+2048                  107.67              Pass
+4096                  113.60              Pass
+8192                  123.76              Pass
+16384                 159.63              Pass
+32768                 191.62              Pass
+65536                 246.71              Pass
+131072                481.60              Pass
+262144               1880.23              Pass
+524288               2851.87              Pass
+1048576              4791.87              Pass
+-- mpirun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//mpi/collective/osu_alltoall -c H H
+[gpu-1-63:04821] Rank 32 bound to package[0][core:0-71]
+[gpu-1-63:04821] Rank 33 bound to package[1][core:72-143]
+[gpu-1-63:04821] Rank 34 bound to package[2][core:144-215]
+[gpu-1-63:04821] Rank 35 bound to package[3][core:216-287]
+[gpu-1-90:474875] Rank 52 bound to package[0][core:0-71]
+[gpu-1-90:474875] Rank 53 bound to package[1][core:72-143]
+[gpu-1-90:474875] Rank 54 bound to package[2][core:144-215]
+[gpu-1-90:474875] Rank 55 bound to package[3][core:216-287]
+[gpu-1-101:4086157] Rank 60 bound to package[0][core:0-71]
+[gpu-1-101:4086157] Rank 61 bound to package[1][core:72-143]
+[gpu-1-101:4086157] Rank 62 bound to package[2][core:144-215]
+[gpu-1-101:4086157] Rank 63 bound to package[3][core:216-287]
+[gpu-1-42:4088008] Rank 12 bound to package[0][core:0-71]
+[gpu-1-42:4088008] Rank 13 bound to package[1][core:72-143]
+[gpu-1-42:4088008] Rank 14 bound to package[2][core:144-215]
+[gpu-1-42:4088008] Rank 15 bound to package[3][core:216-287]
+[gpu-1-48:4159299] Rank 16 bound to package[0][core:0-71]
+[gpu-1-48:4159299] Rank 17 bound to package[1][core:72-143]
+[gpu-1-48:4159299] Rank 18 bound to package[2][core:144-215]
+[gpu-1-25:904718] Rank 4 bound to package[0][core:0-71]
+[gpu-1-25:904718] Rank 5 bound to package[1][core:72-143]
+[gpu-1-48:4159299] Rank 19 bound to package[3][core:216-287]
+[gpu-1-25:904718] Rank 6 bound to package[2][core:144-215]
+[gpu-1-25:904718] Rank 7 bound to package[3][core:216-287]
+[gpu-1-89:4154618] Rank 48 bound to package[0][core:0-71]
+[gpu-1-89:4154618] Rank 49 bound to package[1][core:72-143]
+[gpu-1-89:4154618] Rank 50 bound to package[2][core:144-215]
+[gpu-1-89:4154618] Rank 51 bound to package[3][core:216-287]
+[gpu-1-64:4167321] Rank 36 bound to package[0][core:0-71]
+[gpu-1-64:4167321] Rank 37 bound to package[1][core:72-143]
+[gpu-1-64:4167321] Rank 38 bound to package[2][core:144-215]
+[gpu-1-64:4167321] Rank 39 bound to package[3][core:216-287]
+[gpu-1-75:4126243] Rank 44 bound to package[0][core:0-71]
+[gpu-1-75:4126243] Rank 45 bound to package[1][core:72-143]
+[gpu-1-75:4126243] Rank 46 bound to package[2][core:144-215]
+[gpu-1-75:4126243] Rank 47 bound to package[3][core:216-287]
+[gpu-1-100:4157059] Rank 56 bound to package[0][core:0-71]
+[gpu-1-100:4157059] Rank 57 bound to package[1][core:72-143]
+[gpu-1-100:4157059] Rank 58 bound to package[2][core:144-215]
+[gpu-1-100:4157059] Rank 59 bound to package[3][core:216-287]
+[gpu-1-50:4158578] Rank 24 bound to package[0][core:0-71]
+[gpu-1-50:4158578] Rank 25 bound to package[1][core:72-143]
+[gpu-1-50:4158578] Rank 26 bound to package[2][core:144-215]
+[gpu-1-50:4158578] Rank 27 bound to package[3][core:216-287]
+using OMPI envars
+rank 34 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 61 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 52 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 32 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 33 local 1 gpu 1 nic cxi1
+using OMPI envars
+using OMPI envars
+rank 35 local 3 gpu 3 nic cxi3
+rank 62 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 55 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 54 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 60 local 0 gpu 0 nic cxi0
+using OMPI envars
+using OMPI envars
+rank 53 local 1 gpu 1 nic cxi1
+rank 63 local 3 gpu 3 nic cxi3
+[gpu-1-24:892107] Rank 0 bound to package[0][core:0-71]
+[gpu-1-24:892107] Rank 1 bound to package[1][core:72-143]
+[gpu-1-24:892107] Rank 2 bound to package[2][core:144-215]
+[gpu-1-24:892107] Rank 3 bound to package[3][core:216-287]
+using OMPI envars
+rank 12 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 17 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 16 local 0 gpu 0 nic cxi0
+[gpu-1-49:4151396] Rank 20 bound to package[0][core:0-71]
+[gpu-1-62:4184645] Rank 28 bound to package[0][core:0-71]
+[gpu-1-49:4151396] Rank 21 bound to package[1][core:72-143]
+[gpu-1-49:4151396] Rank 22 bound to package[2][core:144-215]
+[gpu-1-62:4184645] Rank 29 bound to package[1][core:72-143]
+[gpu-1-62:4184645] Rank 30 bound to package[2][core:144-215]
+[gpu-1-62:4184645] Rank 31 bound to package[3][core:216-287]
+using OMPI envars
+[gpu-1-49:4151396] Rank 23 bound to package[3][core:216-287]
+rank 36 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 48 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 15 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 49 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 44 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 37 local 1 gpu 1 nic cxi1
+[gpu-1-74:4144683] Rank 40 bound to package[0][core:0-71]
+[gpu-1-74:4144683] Rank 41 bound to package[1][core:72-143]
+using OMPI envars
+rank 6 local 2 gpu 2 nic cxi2
+[gpu-1-74:4144683] Rank 42 bound to package[2][core:144-215]
+[gpu-1-74:4144683] Rank 43 bound to package[3][core:216-287]
+using OMPI envars
+rank 50 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 13 local 1 gpu 1 nic cxi1
+using OMPI envars
+using OMPI envars
+using OMPI envars
+rank 4 local 0 gpu 0 nic cxi0
+rank 51 local 3 gpu 3 nic cxi3
+rank 14 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 19 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+rank 5 local 1 gpu 1 nic cxi1
+rank 38 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 46 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 57 local 1 gpu 1 nic cxi1
+using OMPI envars
+using OMPI envars
+using OMPI envars
+using OMPI envars
+rank 45 local 1 gpu 1 nic cxi1
+rank 18 local 2 gpu 2 nic cxi2
+rank 7 local 3 gpu 3 nic cxi3
+rank 56 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 39 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 24 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 47 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+rank 27 local 3 gpu 3 nic cxi3
+rank 59 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 58 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 26 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 25 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 1 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 0 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 3 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 2 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 22 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 21 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 30 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 28 local 0 gpu 0 nic cxi0
+[gpu-1-26:4145118] Rank 8 bound to package[0][core:0-71]
+[gpu-1-26:4145118] Rank 9 bound to package[1][core:72-143]
+using OMPI envars
+[gpu-1-26:4145118] Rank 10 bound to package[2][core:144-215]
+rank 40 local 0 gpu 0 nic cxi0
+[gpu-1-26:4145118] Rank 11 bound to package[3][core:216-287]
+using OMPI envars
+rank 42 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 31 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 29 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 20 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 23 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 41 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 43 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 8 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 11 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 10 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 9 local 1 gpu 1 nic cxi1
+
+# OSU MPI All-to-All Personalized Exchange Latency Test v7.5.2
+# Datatype: MPI_CHAR.
+# Size       Avg Latency(us)        Validation
+1                      86.68              Pass
+2                      87.30              Pass
+4                      91.20              Pass
+8                      93.30              Pass
+16                     93.83              Pass
+32                     95.28              Pass
+64                     98.64              Pass
+128                   101.34              Pass
+256                   107.98              Pass
+512                   117.58              Pass
+1024                   98.80              Pass
+2048                  107.41              Pass
+4096                  113.08              Pass
+8192                  122.74              Pass
+16384                 157.85              Pass
+32768                 189.90              Pass
+65536                 246.39              Pass
+131072                478.99              Pass
+262144               1880.89              Pass
+524288               2837.28              Pass
+1048576              4787.27              Pass
+-- srun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//mpi/collective/osu_allreduce -c H H
+cpu-bind=MASK - gpu-1-48, task 16  0 [4165234]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-48, task 17  1 [4165235]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 18  2 [4165236]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 44  0 [4132163]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-48, task 19  3 [4165237]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 45  1 [4132164]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 46  2 [4132165]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 47  3 [4132166]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 12  0 [4093901]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-42, task 13  1 [4093902]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 14  2 [4093903]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  0  0 [893100]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-42, task 15  3 [4093904]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+cpu-bind=MASK - gpu-1-49, task 20  0 [4157317]: mask 0xffffffffffffffffff set
+rank 17 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-24, task  1  1 [893101]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 46 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-49, task 21  1 [4157318]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 16 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 19 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 18 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-24, task  2  2 [893102]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 44 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-49, task 22  2 [4157319]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 47 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 45 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-64, task 36  0 [4173253]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-24, task  3  3 [893103]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 37  1 [4173254]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 23  3 [4157320]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 38  2 [4173255]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 60  0 [4092077]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-74, task 40  0 [4150606]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-64, task 39  3 [4173256]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 41  1 [4150607]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 61  1 [4092078]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 52  0 [480794]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-74, task 42  2 [4150608]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 28  0 [4190566]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-90, task 53  1 [480795]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 62  2 [4092079]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 54  2 [480796]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 15 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-62, task 29  1 [4190567]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 12 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-62, task 30  2 [4190568]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 43  3 [4150609]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 13 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-101, task 63  3 [4092080]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 14 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-90, task 55  3 [480797]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 31  3 [4190569]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 2 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 3 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 20 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 0 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 1 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 21 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 23 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-100, task 56  0 [4162977]: mask 0xffffffffffffffffff set
+using SLURM envars
+using SLURM envars
+rank 36 local 0 gpu 0 nic cxi0
+rank 22 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-100, task 57  1 [4162978]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 37 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-100, task 58  2 [4162979]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 38 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-26, task  8  0 [4151037]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 39 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-89, task 48  0 [4160537]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-26, task  9  1 [4151038]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task 10  2 [4151039]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 42 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-89, task 49  1 [4160538]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 59  3 [4162980]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  4  0 [905708]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-89, task 50  2 [4160539]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 41 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 60 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 55 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-25, task  5  1 [905709]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 40 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 43 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-26, task 11  3 [4151040]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 62 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 54 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 52 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-25, task  6  2 [905710]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 53 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 28 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 61 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 63 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-89, task 51  3 [4160540]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 31 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 30 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 29 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-25, task  7  3 [905711]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 32  0 [10867]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-63, task 33  1 [10872]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 34  2 [10876]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 57 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 59 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 11 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 56 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 58 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-63, task 35  3 [10880]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 8 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-50, task 24  0 [4164509]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 10 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 48 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 50 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 9 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 49 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 51 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-50, task 25  1 [4164514]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 6 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 5 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 4 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 7 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-50, task 26  2 [4164518]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-50, task 27  3 [4164522]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 34 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 35 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 33 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 32 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 27 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 26 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 25 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 24 local 0 gpu 0 nic cxi0
+
+# OSU MPI Allreduce Latency Test v7.5.2
+# Datatype: MPI_INT.
+# Size       Avg Latency(us)        Validation
+4                      35.57              Pass
+8                      35.32              Pass
+16                     35.34              Pass
+32                     35.89              Pass
+64                     52.36              Pass
+128                    54.08              Pass
+256                    61.47              Pass
+512                    63.72              Pass
+1024                   68.85              Pass
+2048                   73.43              Pass
+4096                   84.76              Pass
+8192                   84.28              Pass
+16384                  98.30              Pass
+32768                 131.50              Pass
+65536                 155.18              Pass
+131072                244.66              Pass
+262144                411.71              Pass
+524288                749.80              Pass
+1048576              1433.55              Pass
+-- mpirun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//mpi/collective/osu_allreduce -c H H
+[gpu-1-90:482219] Rank 52 bound to package[0][core:0-71]
+[gpu-1-90:482219] Rank 53 bound to package[1][core:72-143]
+[gpu-1-90:482219] Rank 54 bound to package[2][core:144-215]
+[gpu-1-90:482219] Rank 55 bound to package[3][core:216-287]
+[gpu-1-74:4152032] Rank 40 bound to package[0][core:0-71]
+[gpu-1-74:4152032] Rank 41 bound to package[1][core:72-143]
+[gpu-1-74:4152032] Rank 42 bound to package[2][core:144-215]
+[gpu-1-74:4152032] Rank 43 bound to package[3][core:216-287]
+[gpu-1-89:4161963] Rank 48 bound to package[0][core:0-71]
+[gpu-1-89:4161963] Rank 49 bound to package[1][core:72-143]
+[gpu-1-89:4161963] Rank 50 bound to package[2][core:144-215]
+[gpu-1-89:4161963] Rank 51 bound to package[3][core:216-287]
+[gpu-1-101:4093504] Rank 60 bound to package[0][core:0-71]
+[gpu-1-101:4093504] Rank 61 bound to package[1][core:72-143]
+[gpu-1-101:4093504] Rank 62 bound to package[2][core:144-215]
+[gpu-1-101:4093504] Rank 63 bound to package[3][core:216-287]
+[gpu-1-25:906370] Rank 4 bound to package[0][core:0-71]
+[gpu-1-25:906370] Rank 5 bound to package[1][core:72-143]
+[gpu-1-25:906370] Rank 6 bound to package[2][core:144-215]
+[gpu-1-25:906370] Rank 7 bound to package[3][core:216-287]
+[gpu-1-49:4158742] Rank 20 bound to package[0][core:0-71]
+[gpu-1-64:4174691] Rank 36 bound to package[0][core:0-71]
+[gpu-1-49:4158742] Rank 21 bound to package[1][core:72-143]
+[gpu-1-64:4174691] Rank 37 bound to package[1][core:72-143]
+[gpu-1-64:4174691] Rank 38 bound to package[2][core:144-215]
+[gpu-1-49:4158742] Rank 22 bound to package[2][core:144-215]
+[gpu-1-49:4158742] Rank 23 bound to package[3][core:216-287]
+[gpu-1-64:4174691] Rank 39 bound to package[3][core:216-287]
+[gpu-1-50:4165926] Rank 24 bound to package[0][core:0-71]
+[gpu-1-63:12288] Rank 32 bound to package[0][core:0-71]
+[gpu-1-63:12288] Rank 33 bound to package[1][core:72-143]
+[gpu-1-63:12288] Rank 34 bound to package[2][core:144-215]
+[gpu-1-50:4165926] Rank 25 bound to package[1][core:72-143]
+[gpu-1-50:4165926] Rank 26 bound to package[2][core:144-215]
+[gpu-1-50:4165926] Rank 27 bound to package[3][core:216-287]
+[gpu-1-63:12288] Rank 35 bound to package[3][core:216-287]
+using OMPI envars
+using OMPI envars
+rank 52 local 0 gpu 0 nic cxi0
+rank 40 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 54 local 2 gpu 2 nic cxi2
+[gpu-1-24:893803] Rank 0 bound to package[0][core:0-71]
+[gpu-1-24:893803] Rank 1 bound to package[1][core:72-143]
+[gpu-1-24:893803] Rank 2 bound to package[2][core:144-215]
+[gpu-1-24:893803] Rank 3 bound to package[3][core:216-287]
+using OMPI envars
+rank 55 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 53 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 42 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 41 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 43 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 48 local 0 gpu 0 nic cxi0
+[gpu-1-42:4095327] Rank 12 bound to package[0][core:0-71]
+[gpu-1-42:4095327] Rank 13 bound to package[1][core:72-143]
+[gpu-1-42:4095327] Rank 14 bound to package[2][core:144-215]
+[gpu-1-26:4152462] Rank 8 bound to package[0][core:0-71]
+[gpu-1-42:4095327] Rank 15 bound to package[3][core:216-287]
+[gpu-1-26:4152462] Rank 9 bound to package[1][core:72-143]
+[gpu-1-26:4152462] Rank 10 bound to package[2][core:144-215]
+[gpu-1-26:4152462] Rank 11 bound to package[3][core:216-287]
+[gpu-1-62:4191991] Rank 28 bound to package[0][core:0-71]
+using OMPI envars
+rank 36 local 0 gpu 0 nic cxi0
+[gpu-1-62:4191991] Rank 29 bound to package[1][core:72-143]
+[gpu-1-62:4191991] Rank 30 bound to package[2][core:144-215]
+using OMPI envars
+rank 61 local 1 gpu 1 nic cxi1
+[gpu-1-62:4191991] Rank 31 bound to package[3][core:216-287]
+[gpu-1-75:4133589] Rank 44 bound to package[0][core:0-71]
+[gpu-1-75:4133589] Rank 45 bound to package[1][core:72-143]
+[gpu-1-75:4133589] Rank 46 bound to package[2][core:144-215]
+[gpu-1-75:4133589] Rank 47 bound to package[3][core:216-287]
+using OMPI envars
+rank 37 local 1 gpu 1 nic cxi1
+[gpu-1-100:4164402] Rank 56 bound to package[0][core:0-71]
+[gpu-1-100:4164402] Rank 57 bound to package[1][core:72-143]
+[gpu-1-100:4164402] Rank 58 bound to package[2][core:144-215]
+[gpu-1-100:4164402] Rank 59 bound to package[3][core:216-287]
+using OMPI envars
+rank 49 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 50 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 62 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 5 local 1 gpu 1 nic cxi1
+using OMPI envars
+using OMPI envars
+rank 4 local 0 gpu 0 nic cxi0
+rank 51 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 20 local 0 gpu 0 nic cxi0
+using OMPI envars
+using OMPI envars
+rank 24 local 0 gpu 0 nic cxi0
+rank 63 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+rank 32 local 0 gpu 0 nic cxi0
+rank 60 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 27 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 6 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 21 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 38 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 39 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 0 local 0 gpu 0 nic cxi0
+rank 22 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 7 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 23 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 26 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 25 local 1 gpu 1 nic cxi1
+rank 34 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 33 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 35 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 1 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 3 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 2 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 12 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 15 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 57 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 8 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 28 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 10 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 56 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 13 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 30 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 14 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 31 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+rank 46 local 2 gpu 2 nic cxi2
+rank 11 local 3 gpu 3 nic cxi3
+rank 9 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 29 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 58 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 44 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 59 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 45 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 47 local 3 gpu 3 nic cxi3
+[gpu-1-48:4166660] Rank 16 bound to package[0][core:0-71]
+[gpu-1-48:4166660] Rank 17 bound to package[1][core:72-143]
+[gpu-1-48:4166660] Rank 18 bound to package[2][core:144-215]
+[gpu-1-48:4166660] Rank 19 bound to package[3][core:216-287]
+using OMPI envars
+rank 17 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 16 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 19 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 18 local 2 gpu 2 nic cxi2
+
+# OSU MPI Allreduce Latency Test v7.5.2
+# Datatype: MPI_INT.
+# Size       Avg Latency(us)        Validation
+4                      35.21              Pass
+8                      35.16              Pass
+16                     35.11              Pass
+32                     35.82              Pass
+64                     52.79              Pass
+128                    54.77              Pass
+256                    61.56              Pass
+512                    63.33              Pass
+1024                   68.95              Pass
+2048                   73.72              Pass
+4096                   84.64              Pass
+8192                   84.32              Pass
+16384                 100.43              Pass
+32768                 140.97              Pass
+65536                 155.91              Pass
+131072                238.22              Pass
+262144                414.07              Pass
+524288                755.38              Pass
+1048576              1430.63              Pass
+-- srun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//mpi/collective/osu_allgather -c H H
+cpu-bind=MASK - gpu-1-24, task  0  0 [894494]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-24, task  1  1 [894495]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  2  2 [894496]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  4  0 [907042]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-75, task 44  0 [4134802]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-25, task  5  1 [907043]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 45  1 [4134803]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  3  3 [894497]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  6  2 [907044]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 46  2 [4134804]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 56  0 [4165612]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-26, task  8  0 [4153672]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-75, task 47  3 [4134805]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 57  1 [4165613]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 32  0 [13509]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-25, task  7  3 [907045]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 58  2 [4165614]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 33  1 [13510]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task  9  1 [4153673]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 16  0 [4167870]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-63, task 34  2 [13511]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task 10  2 [4153674]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 17  1 [4167871]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 59  3 [4165615]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 35  3 [13512]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 18  2 [4167872]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task 11  3 [4153675]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 52  0 [483429]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-62, task 28  0 [4193201]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-90, task 53  1 [483430]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 29  1 [4193202]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 54  2 [483431]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 19  3 [4167873]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 30  2 [4193203]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 60  0 [4094716]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-62, task 31  3 [4193204]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 55  3 [483432]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 1 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-101, task 61  1 [4094717]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 40  0 [4153244]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 0 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-101, task 62  2 [4094718]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 12  0 [4096537]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 2 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 3 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 46 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-74, task 41  1 [4153245]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 13  1 [4096538]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 42  2 [4153246]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 6 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-42, task 14  2 [4096539]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 63  3 [4094719]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 47 local 3 gpu 3 nic cxi3
+using SLURM envars
+using SLURM envars
+rank 45 local 1 gpu 1 nic cxi1
+rank 7 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 4 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 5 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 44 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 57 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-42, task 15  3 [4096540]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 34 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-74, task 43  3 [4153247]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 59 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 10 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 56 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 35 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 58 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 11 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 33 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 32 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 17 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 9 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 8 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 30 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 18 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 16 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-50, task 24  0 [4167136]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 19 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 28 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 54 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 31 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-50, task 25  1 [4167137]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 55 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 29 local 1 gpu 1 nic cxi1
+using SLURM envars
+cpu-bind=MASK - gpu-1-50, task 26  2 [4167138]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+rank 52 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 53 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-89, task 48  0 [4163173]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 62 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-50, task 27  3 [4167139]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 49  1 [4163174]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 20  0 [4159952]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 61 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 15 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-49, task 21  1 [4159953]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 50  2 [4163175]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 22  2 [4159954]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 60 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 63 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 42 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 40 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 12 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 13 local 1 gpu 1 nic cxi1
+using SLURM envars
+cpu-bind=MASK - gpu-1-89, task 51  3 [4163176]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+rank 43 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 14 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-49, task 23  3 [4159955]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 41 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-64, task 36  0 [4175913]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-64, task 37  1 [4175914]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 27 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-64, task 38  2 [4175915]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 25 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 24 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 26 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-64, task 39  3 [4175916]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 48 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 22 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 21 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 50 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 20 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 23 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 49 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 51 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 36 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 38 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 37 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 39 local 3 gpu 3 nic cxi3
+
+# OSU MPI Allgather Latency Test v7.5.2
+# Datatype: MPI_CHAR.
+# Size       Avg Latency(us)        Validation
+1                      28.75              Pass
+2                      28.85              Pass
+4                      31.12              Pass
+8                      31.74              Pass
+16                     34.06              Pass
+32                     35.86              Pass
+64                     36.92              Pass
+128                    40.04              Pass
+256                    44.18              Pass
+512                    48.95              Pass
+1024                   63.54              Pass
+2048                   81.54              Pass
+4096                  109.65              Pass
+8192                  153.99              Pass
+16384                 427.48              Pass
+32768                 764.15              Pass
+65536                1459.03              Pass
+131072               2871.42              Pass
+262144               5805.56              Pass
+524288              11916.18              Pass
+1048576             24499.43              Pass
+-- mpirun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//mpi/collective/osu_allgather -c H H
+[gpu-1-100:4170795] Rank 56 bound to package[0][core:0-71]
+[gpu-1-100:4170795] Rank 57 bound to package[1][core:72-143]
+[gpu-1-100:4170795] Rank 58 bound to package[2][core:144-215]
+[gpu-1-100:4170795] Rank 59 bound to package[3][core:216-287]
+[gpu-1-74:4158428] Rank 40 bound to package[0][core:0-71]
+[gpu-1-74:4158428] Rank 41 bound to package[1][core:72-143]
+[gpu-1-74:4158428] Rank 42 bound to package[2][core:144-215]
+[gpu-1-74:4158428] Rank 43 bound to package[3][core:216-287]
+[gpu-1-89:4168359] Rank 48 bound to package[0][core:0-71]
+[gpu-1-42:4101695] Rank 12 bound to package[0][core:0-71]
+[gpu-1-42:4101695] Rank 13 bound to package[1][core:72-143]
+[gpu-1-89:4168359] Rank 49 bound to package[1][core:72-143]
+[gpu-1-42:4101695] Rank 14 bound to package[2][core:144-215]
+[gpu-1-89:4168359] Rank 50 bound to package[2][core:144-215]
+[gpu-1-42:4101695] Rank 15 bound to package[3][core:216-287]
+[gpu-1-89:4168359] Rank 51 bound to package[3][core:216-287]
+[gpu-1-101:4099899] Rank 60 bound to package[0][core:0-71]
+[gpu-1-101:4099899] Rank 61 bound to package[1][core:72-143]
+[gpu-1-101:4099899] Rank 62 bound to package[2][core:144-215]
+[gpu-1-101:4099899] Rank 63 bound to package[3][core:216-287]
+using OMPI envars
+rank 57 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 56 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 58 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 59 local 3 gpu 3 nic cxi3
+[gpu-1-75:4139986] Rank 44 bound to package[0][core:0-71]
+[gpu-1-75:4139986] Rank 45 bound to package[1][core:72-143]
+[gpu-1-75:4139986] Rank 46 bound to package[2][core:144-215]
+[gpu-1-75:4139986] Rank 47 bound to package[3][core:216-287]
+[gpu-1-24:895506] Rank 0 bound to package[0][core:0-71]
+[gpu-1-24:895506] Rank 1 bound to package[1][core:72-143]
+[gpu-1-24:895506] Rank 2 bound to package[2][core:144-215]
+using OMPI envars
+rank 12 local 0 gpu 0 nic cxi0
+[gpu-1-24:895506] Rank 3 bound to package[3][core:216-287]
+[gpu-1-63:18711] Rank 32 bound to package[0][core:0-71]
+[gpu-1-63:18711] Rank 33 bound to package[1][core:72-143]
+using OMPI envars
+rank 48 local 0 gpu 0 nic cxi0
+[gpu-1-50:4172323] Rank 24 bound to package[0][core:0-71]
+[gpu-1-50:4172323] Rank 25 bound to package[1][core:72-143]
+[gpu-1-50:4172323] Rank 26 bound to package[2][core:144-215]
+[gpu-1-63:18711] Rank 34 bound to package[2][core:144-215]
+[gpu-1-63:18711] Rank 35 bound to package[3][core:216-287]
+[gpu-1-90:488612] Rank 52 bound to package[0][core:0-71]
+[gpu-1-50:4172323] Rank 27 bound to package[3][core:216-287]
+[gpu-1-90:488612] Rank 53 bound to package[1][core:72-143]
+[gpu-1-90:488612] Rank 54 bound to package[2][core:144-215]
+[gpu-1-48:4173053] Rank 16 bound to package[0][core:0-71]
+[gpu-1-48:4173053] Rank 17 bound to package[1][core:72-143]
+[gpu-1-48:4173053] Rank 18 bound to package[2][core:144-215]
+[gpu-1-48:4173053] Rank 19 bound to package[3][core:216-287]
+[gpu-1-26:4158855] Rank 8 bound to package[0][core:0-71]
+[gpu-1-26:4158855] Rank 9 bound to package[1][core:72-143]
+[gpu-1-90:488612] Rank 55 bound to package[3][core:216-287]
+[gpu-1-26:4158855] Rank 10 bound to package[2][core:144-215]
+[gpu-1-25:908014] Rank 4 bound to package[0][core:0-71]
+[gpu-1-25:908014] Rank 5 bound to package[1][core:72-143]
+[gpu-1-25:908014] Rank 6 bound to package[2][core:144-215]
+[gpu-1-26:4158855] Rank 11 bound to package[3][core:216-287]
+[gpu-1-25:908014] Rank 7 bound to package[3][core:216-287]
+[gpu-1-62:06131] Rank 28 bound to package[0][core:0-71]
+[gpu-1-62:06131] Rank 29 bound to package[1][core:72-143]
+using OMPI envars
+[gpu-1-62:06131] Rank 30 bound to package[2][core:144-215]
+rank 61 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 42 local 2 gpu 2 nic cxi2
+[gpu-1-62:06131] Rank 31 bound to package[3][core:216-287]
+using OMPI envars
+rank 40 local 0 gpu 0 nic cxi0
+[gpu-1-64:4181109] Rank 36 bound to package[0][core:0-71]
+[gpu-1-64:4181109] Rank 37 bound to package[1][core:72-143]
+[gpu-1-64:4181109] Rank 38 bound to package[2][core:144-215]
+[gpu-1-64:4181109] Rank 39 bound to package[3][core:216-287]
+using OMPI envars
+rank 60 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 62 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 15 local 3 gpu 3 nic cxi3
+rank 13 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 50 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 49 local 1 gpu 1 nic cxi1
+using OMPI envars
+using OMPI envars
+rank 14 local 2 gpu 2 nic cxi2
+rank 41 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 43 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 51 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 63 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 46 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 0 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 24 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 17 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 32 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 44 local 0 gpu 0 nic cxi0
+using OMPI envars
+using OMPI envars
+rank 8 local 0 gpu 0 nic cxi0
+rank 16 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 36 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 45 local 1 gpu 1 nic cxi1
+[gpu-1-49:4165138] Rank 20 bound to package[0][core:0-71]
+[gpu-1-49:4165138] Rank 21 bound to package[1][core:72-143]
+[gpu-1-49:4165138] Rank 22 bound to package[2][core:144-215]
+[gpu-1-49:4165138] Rank 23 bound to package[3][core:216-287]
+using OMPI envars
+rank 1 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 47 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 52 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 2 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 25 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 3 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 37 local 1 gpu 1 nic cxi1
+using OMPI envars
+using OMPI envars
+rank 10 local 2 gpu 2 nic cxi2
+rank 4 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 28 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 54 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 19 local 3 gpu 3 nic cxi3
+rank 30 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 27 local 3 gpu 3 nic cxi3
+rank 18 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 26 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 11 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+using OMPI envars
+rank 9 local 1 gpu 1 nic cxi1
+rank 34 local 2 gpu 2 nic cxi2
+rank 6 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 55 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 5 local 1 gpu 1 nic cxi1
+using OMPI envars
+using OMPI envars
+rank 33 local 1 gpu 1 nic cxi1
+rank 38 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 53 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 35 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 7 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 31 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 39 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 29 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 21 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 20 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 23 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 22 local 2 gpu 2 nic cxi2
+
+# OSU MPI Allgather Latency Test v7.5.2
+# Datatype: MPI_CHAR.
+# Size       Avg Latency(us)        Validation
+1                      28.73              Pass
+2                      29.07              Pass
+4                      31.29              Pass
+8                      32.13              Pass
+16                     34.34              Pass
+32                     36.20              Pass
+64                     37.22              Pass
+128                    39.96              Pass
+256                    44.26              Pass
+512                    49.18              Pass
+1024                   63.82              Pass
+2048                   81.35              Pass
+4096                  109.30              Pass
+8192                  154.24              Pass
+16384                 427.21              Pass
+32768                 761.53              Pass
+65536                1456.73              Pass
+131072               2858.46              Pass
+262144               5781.97              Pass
+524288              11856.75              Pass
+1048576             24394.85              Pass
+-- srun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//xccl/collective/osu_xccl_alltoall
+cpu-bind=MASK - gpu-1-48, task 16  0 [4177939]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-48, task 17  1 [4177940]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  0  0 [896274]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-48, task 18  2 [4177941]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  1  1 [896275]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 19  3 [4177942]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  2  2 [896276]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 48  0 [4173243]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-24, task  3  3 [896277]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 49  1 [4173244]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 50  2 [4173245]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 51  3 [4173246]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 32  0 [23656]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-26, task  8  0 [4163739]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-63, task 33  1 [23657]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task  9  1 [4163740]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 52  0 [493496]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-63, task 34  2 [23658]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task 10  2 [4163741]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 53  1 [493497]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 20  0 [4170022]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-90, task 54  2 [493498]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 28  0 [11100]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-49, task 21  1 [4170023]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 29  1 [11101]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 35  3 [23659]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task 11  3 [4163742]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 55  3 [493499]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 44  0 [4144870]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-62, task 30  2 [11102]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 56  0 [4175679]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-49, task 22  2 [4170024]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 45  1 [4144871]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  4  0 [908692]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-100, task 57  1 [4175680]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 46  2 [4144872]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  5  1 [908693]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+cpu-bind=MASK - gpu-1-49, task 23  3 [4170025]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+rank 1 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-100, task 58  2 [4175681]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 31  3 [11103]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 16 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 2 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 0 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 3 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-25, task  6  2 [908694]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 17 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 19 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-75, task 47  3 [4144873]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 18 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-100, task 59  3 [4175682]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 48 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-25, task  7  3 [908695]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 50 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 49 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 51 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 34 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-42, task 12  0 [4106580]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 35 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-42, task 13  1 [4106581]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 55 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 11 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 32 local 0 gpu 0 nic cxi0
+using SLURM envars
+using SLURM envars
+rank 33 local 1 gpu 1 nic cxi1
+rank 10 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-42, task 14  2 [4106582]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 54 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 8 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 52 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 53 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 9 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 21 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 23 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-42, task 15  3 [4106583]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 20 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 30 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 22 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 28 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 31 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 29 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 47 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 46 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 59 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 44 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 45 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 57 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 56 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 58 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 6 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 4 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 7 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 5 local 1 gpu 1 nic cxi1
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+cpu-bind=MASK - gpu-1-101, task 60  0 [4104783]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-101, task 61  1 [4104784]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 62  2 [4104785]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+cpu-bind=MASK - gpu-1-74, task 40  0 [4163313]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-101, task 63  3 [4104786]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-50, task 24  0 [4177210]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-74, task 41  1 [4163314]: mask 0xffffffffffffffffff000000000000000000 set
+#Using NCCL
+cpu-bind=MASK - gpu-1-64, task 36  0 [4186008]: mask 0xffffffffffffffffff set
+#Using NCCL
+#Using NCCL
+#Using NCCL
+cpu-bind=MASK - gpu-1-74, task 42  2 [4163315]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-50, task 25  1 [4177211]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 37  1 [4186009]: mask 0xffffffffffffffffff000000000000000000 set
+#Using NCCL
+cpu-bind=MASK - gpu-1-64, task 38  2 [4186010]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-50, task 26  2 [4177212]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 15 local 3 gpu 3 nic cxi3
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 12 local 0 gpu 0 nic cxi0
+#Using NCCL
+#Using NCCL
+#Using NCCL
+cpu-bind=MASK - gpu-1-74, task 43  3 [4163316]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 14 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 13 local 1 gpu 1 nic cxi1
+#Using NCCL
+cpu-bind=MASK - gpu-1-50, task 27  3 [4177213]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 39  3 [4186011]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 62 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 60 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 63 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 61 local 1 gpu 1 nic cxi1
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 36 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 40 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 27 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 42 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 37 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 43 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 39 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 38 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 41 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 26 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 24 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 25 local 1 gpu 1 nic cxi1
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+
+# OSU NCCL-CUDA All-to-All Personalized Exchange Latency Test v7.5.2
+# Size       Avg Latency(us)
+1                     388.92
+2                     385.31
+4                     385.58
+8                     386.94
+16                    386.40
+32                    386.55
+64                    382.62
+128                   382.18
+256                   357.93
+512                   360.12
+1024                  369.23
+2048                  387.81
+4096                  400.21
+8192                  431.75
+16384                 507.97
+32768                 635.72
+65536                1040.16
+131072               1803.51
+262144               4491.92
+524288              21003.41
+1048576             16219.83
+-- mpirun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//xccl/collective/osu_xccl_alltoall
+[gpu-1-90:495132] Rank 52 bound to package[0][core:0-71]
+[gpu-1-90:495132] Rank 53 bound to package[1][core:72-143]
+[gpu-1-90:495132] Rank 54 bound to package[2][core:144-215]
+[gpu-1-90:495132] Rank 55 bound to package[3][core:216-287]
+[gpu-1-74:4164947] Rank 40 bound to package[0][core:0-71]
+[gpu-1-74:4164947] Rank 41 bound to package[1][core:72-143]
+[gpu-1-74:4164947] Rank 42 bound to package[2][core:144-215]
+[gpu-1-74:4164947] Rank 43 bound to package[3][core:216-287]
+[gpu-1-75:4146504] Rank 44 bound to package[0][core:0-71]
+[gpu-1-75:4146504] Rank 45 bound to package[1][core:72-143]
+[gpu-1-75:4146504] Rank 46 bound to package[2][core:144-215]
+[gpu-1-75:4146504] Rank 47 bound to package[3][core:216-287]
+[gpu-1-48:4179572] Rank 16 bound to package[0][core:0-71]
+[gpu-1-42:4108216] Rank 12 bound to package[0][core:0-71]
+[gpu-1-48:4179572] Rank 17 bound to package[1][core:72-143]
+[gpu-1-48:4179572] Rank 18 bound to package[2][core:144-215]
+[gpu-1-42:4108216] Rank 13 bound to package[1][core:72-143]
+[gpu-1-42:4108216] Rank 14 bound to package[2][core:144-215]
+[gpu-1-42:4108216] Rank 15 bound to package[3][core:216-287]
+[gpu-1-48:4179572] Rank 19 bound to package[3][core:216-287]
+[gpu-1-89:4174879] Rank 48 bound to package[0][core:0-71]
+[gpu-1-89:4174879] Rank 49 bound to package[1][core:72-143]
+[gpu-1-89:4174879] Rank 50 bound to package[2][core:144-215]
+[gpu-1-89:4174879] Rank 51 bound to package[3][core:216-287]
+[gpu-1-101:4106418] Rank 60 bound to package[0][core:0-71]
+[gpu-1-101:4106418] Rank 61 bound to package[1][core:72-143]
+[gpu-1-101:4106418] Rank 62 bound to package[2][core:144-215]
+[gpu-1-101:4106418] Rank 63 bound to package[3][core:216-287]
+[gpu-1-64:4187653] Rank 36 bound to package[0][core:0-71]
+[gpu-1-64:4187653] Rank 37 bound to package[1][core:72-143]
+[gpu-1-64:4187653] Rank 38 bound to package[2][core:144-215]
+[gpu-1-64:4187653] Rank 39 bound to package[3][core:216-287]
+using OMPI envars
+rank 52 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 54 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 40 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 55 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 53 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 42 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 46 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 12 local 0 gpu 0 nic cxi0
+[gpu-1-26:4165372] Rank 8 bound to package[0][core:0-71]
+[gpu-1-26:4165372] Rank 9 bound to package[1][core:72-143]
+using OMPI envars
+[gpu-1-26:4165372] Rank 10 bound to package[2][core:144-215]
+rank 17 local 1 gpu 1 nic cxi1
+[gpu-1-26:4165372] Rank 11 bound to package[3][core:216-287]
+using OMPI envars
+rank 43 local 3 gpu 3 nic cxi3
+[gpu-1-25:909379] Rank 4 bound to package[0][core:0-71]
+using OMPI envars
+[gpu-1-25:909379] Rank 5 bound to package[1][core:72-143]
+[gpu-1-25:909379] Rank 6 bound to package[2][core:144-215]
+rank 48 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 41 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 36 local 0 gpu 0 nic cxi0
+[gpu-1-25:909379] Rank 7 bound to package[3][core:216-287]
+using OMPI envars
+rank 16 local 0 gpu 0 nic cxi0
+[gpu-1-49:4171656] Rank 20 bound to package[0][core:0-71]
+[gpu-1-49:4171656] Rank 21 bound to package[1][core:72-143]
+[gpu-1-49:4171656] Rank 23 bound to package[3][core:216-287]
+[gpu-1-49:4171656] Rank 22 bound to package[2][core:144-215]
+using OMPI envars
+rank 44 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 61 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 45 local 1 gpu 1 nic cxi1
+[gpu-1-100:4177319] Rank 56 bound to package[0][core:0-71]
+[gpu-1-100:4177319] Rank 57 bound to package[1][core:72-143]
+using OMPI envars
+using OMPI envars
+[gpu-1-100:4177319] Rank 58 bound to package[2][core:144-215]
+rank 37 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 15 local 3 gpu 3 nic cxi3
+rank 18 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 47 local 3 gpu 3 nic cxi3
+[gpu-1-100:4177319] Rank 59 bound to package[3][core:216-287]
+using OMPI envars
+rank 19 local 3 gpu 3 nic cxi3
+[gpu-1-63:25290] Rank 32 bound to package[0][core:0-71]
+[gpu-1-63:25290] Rank 33 bound to package[1][core:72-143]
+[gpu-1-63:25290] Rank 34 bound to package[2][core:144-215]
+[gpu-1-63:25290] Rank 35 bound to package[3][core:216-287]
+[gpu-1-50:4178847] Rank 24 bound to package[0][core:0-71]
+[gpu-1-50:4178847] Rank 25 bound to package[1][core:72-143]
+[gpu-1-50:4178847] Rank 26 bound to package[2][core:144-215]
+[gpu-1-50:4178847] Rank 27 bound to package[3][core:216-287]
+using OMPI envars
+rank 49 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 50 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 62 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 38 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 51 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 39 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 13 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 14 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 63 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 60 local 0 gpu 0 nic cxi0
+[gpu-1-24:897002] Rank 0 bound to package[0][core:0-71]
+[gpu-1-24:897002] Rank 1 bound to package[1][core:72-143]
+[gpu-1-24:897002] Rank 2 bound to package[2][core:144-215]
+[gpu-1-24:897002] Rank 3 bound to package[3][core:216-287]
+using OMPI envars
+rank 8 local 0 gpu 0 nic cxi0
+[gpu-1-62:12747] Rank 28 bound to package[0][core:0-71]
+[gpu-1-62:12747] Rank 29 bound to package[1][core:72-143]
+[gpu-1-62:12747] Rank 30 bound to package[2][core:144-215]
+[gpu-1-62:12747] Rank 31 bound to package[3][core:216-287]
+using OMPI envars
+rank 57 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 24 local 0 gpu 0 nic cxi0
+using OMPI envars
+using OMPI envars
+rank 4 local 0 gpu 0 nic cxi0
+rank 20 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 10 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 6 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 56 local 0 gpu 0 nic cxi0
+rank 11 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 9 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 5 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 32 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 21 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 7 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 22 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 23 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 58 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 59 local 3 gpu 3 nic cxi3
+rank 1 local 1 gpu 1 nic cxi1
+using OMPI envars
+using OMPI envars
+rank 33 local 1 gpu 1 nic cxi1
+rank 25 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 26 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 27 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 0 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 34 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 35 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 3 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 2 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 28 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 30 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 31 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 29 local 1 gpu 1 nic cxi1
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+
+# OSU NCCL-CUDA All-to-All Personalized Exchange Latency Test v7.5.2
+# Size       Avg Latency(us)
+1                     389.57
+2                     386.27
+4                     386.24
+8                     386.57
+16                    386.49
+32                    387.78
+64                    383.91
+128                   383.31
+256                   358.65
+512                   360.99
+1024                  370.77
+2048                  388.73
+4096                  402.48
+8192                  434.91
+16384                 512.82
+32768                 642.58
+65536                1045.21
+131072               1715.49
+262144               4426.54
+524288              28499.03
+1048576             15365.50
+-- srun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//xccl/collective/osu_xccl_allreduce
+cpu-bind=MASK - gpu-1-24, task  0  0 [897732]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-26, task  8  0 [4166805]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-24, task  1  1 [897733]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task  9  1 [4166806]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  2  2 [897734]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task 10  2 [4166807]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task 11  3 [4166808]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  4  0 [910103]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-25, task  5  1 [910104]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  6  2 [910105]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  3  3 [897735]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 16  0 [4181021]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-101, task 60  0 [4107851]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-101, task 61  1 [4107852]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 17  1 [4181022]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 62  2 [4107853]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 18  2 [4181023]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  7  3 [910106]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 28  0 [14184]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-90, task 52  0 [496564]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-48, task 19  3 [4181024]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 63  3 [4107854]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 29  1 [14185]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 53  1 [496565]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 30  2 [14186]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 54  2 [496566]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 48  0 [4176311]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-62, task 31  3 [14187]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 55  3 [496567]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 49  1 [4176312]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 36  0 [4189097]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-42, task 12  0 [4109649]: mask 0xffffffffffffffffff set
+using SLURM envars
+cpu-bind=MASK - gpu-1-89, task 50  2 [4176313]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 37  1 [4189098]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 13  1 [4109650]: mask 0xffffffffffffffffff000000000000000000 set
+rank 10 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 11 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 8 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 9 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-64, task 38  2 [4189099]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 14  2 [4109651]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 1 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-89, task 51  3 [4176314]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 20  0 [4173090]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-49, task 21  1 [4173091]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 0 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-64, task 39  3 [4189100]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 15  3 [4109652]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 3 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 2 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-49, task 22  2 [4173092]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 6 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-49, task 23  3 [4173093]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 32  0 [26722]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 4 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 17 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 5 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 7 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-50, task 24  0 [4180280]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-63, task 33  1 [26723]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-50, task 25  1 [4180281]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 61 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-100, task 56  0 [4178753]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-63, task 34  2 [26724]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 16 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-50, task 26  2 [4180282]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 18 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 63 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-100, task 57  1 [4178754]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 19 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 62 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 60 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-100, task 58  2 [4178755]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 35  3 [26725]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 54 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-50, task 27  3 [4180283]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 30 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 55 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-100, task 59  3 [4178756]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 52 local 0 gpu 0 nic cxi0
+using SLURM envars
+using SLURM envars
+rank 53 local 1 gpu 1 nic cxi1
+rank 29 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 28 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 31 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-74, task 40  0 [4166380]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 36 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 48 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-74, task 41  1 [4166381]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 15 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 51 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 50 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-74, task 42  2 [4166382]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 49 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 37 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 12 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 22 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-75, task 44  0 [4147937]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 14 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 13 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 39 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 38 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 20 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-74, task 43  3 [4166383]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 45  1 [4147938]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 21 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 23 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-75, task 46  2 [4147939]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 47  3 [4147940]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+#Using NCCL
+using SLURM envars
+rank 34 local 2 gpu 2 nic cxi2
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 57 local 1 gpu 1 nic cxi1
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 32 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 59 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 27 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 33 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 35 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 24 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 56 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 26 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 58 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 25 local 1 gpu 1 nic cxi1
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 42 local 2 gpu 2 nic cxi2
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 40 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 41 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 43 local 3 gpu 3 nic cxi3
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 46 local 2 gpu 2 nic cxi2
+#Using NCCL
+using SLURM envars
+rank 47 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 45 local 1 gpu 1 nic cxi1
+#Using NCCL
+using SLURM envars
+rank 44 local 0 gpu 0 nic cxi0
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+
+# OSU NCCL-CUDA Allreduce Latency Test v7.5.2
+# Size       Avg Latency(us)
+4                      53.13
+8                      52.39
+16                     52.19
+32                     52.18
+64                     56.17
+128                    57.96
+256                    58.71
+512                    60.79
+1024                   68.85
+2048                   71.78
+4096                   84.11
+8192                   92.93
+16384                 115.44
+32768                 168.90
+65536                 232.99
+131072                192.95
+262144                318.27
+524288                411.97
+1048576               656.83
+-- mpirun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//xccl/collective/osu_xccl_allreduce
+[gpu-1-50:4181542] Rank 24 bound to package[0][core:0-71]
+[gpu-1-50:4181542] Rank 25 bound to package[1][core:72-143]
+[gpu-1-50:4181542] Rank 26 bound to package[2][core:144-215]
+[gpu-1-50:4181542] Rank 27 bound to package[3][core:216-287]
+[gpu-1-63:28569] Rank 32 bound to package[0][core:0-71]
+[gpu-1-63:28569] Rank 33 bound to package[1][core:72-143]
+[gpu-1-63:28569] Rank 34 bound to package[2][core:144-215]
+[gpu-1-26:4168067] Rank 8 bound to package[0][core:0-71]
+[gpu-1-26:4168067] Rank 9 bound to package[1][core:72-143]
+[gpu-1-63:28569] Rank 35 bound to package[3][core:216-287]
+[gpu-1-26:4168067] Rank 10 bound to package[2][core:144-215]
+[gpu-1-26:4168067] Rank 11 bound to package[3][core:216-287]
+[gpu-1-64:4190373] Rank 36 bound to package[0][core:0-71]
+[gpu-1-64:4190373] Rank 37 bound to package[1][core:72-143]
+[gpu-1-64:4190373] Rank 38 bound to package[2][core:144-215]
+[gpu-1-64:4190373] Rank 39 bound to package[3][core:216-287]
+[gpu-1-75:4149199] Rank 44 bound to package[0][core:0-71]
+[gpu-1-75:4149199] Rank 45 bound to package[1][core:72-143]
+[gpu-1-75:4149199] Rank 46 bound to package[2][core:144-215]
+[gpu-1-74:4167642] Rank 40 bound to package[0][core:0-71]
+[gpu-1-74:4167642] Rank 41 bound to package[1][core:72-143]
+[gpu-1-74:4167642] Rank 42 bound to package[2][core:144-215]
+[gpu-1-75:4149199] Rank 47 bound to package[3][core:216-287]
+[gpu-1-74:4167642] Rank 43 bound to package[3][core:216-287]
+using OMPI envars
+[gpu-1-42:4110911] Rank 12 bound to package[0][core:0-71]
+[gpu-1-42:4110911] Rank 13 bound to package[1][core:72-143]
+[gpu-1-42:4110911] Rank 14 bound to package[2][core:144-215]
+[gpu-1-42:4110911] Rank 15 bound to package[3][core:216-287]
+rank 24 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 27 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 26 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 25 local 1 gpu 1 nic cxi1
+[gpu-1-101:4109113] Rank 60 bound to package[0][core:0-71]
+[gpu-1-101:4109113] Rank 61 bound to package[1][core:72-143]
+[gpu-1-101:4109113] Rank 62 bound to package[2][core:144-215]
+[gpu-1-101:4109113] Rank 63 bound to package[3][core:216-287]
+[gpu-1-24:898457] Rank 0 bound to package[0][core:0-71]
+[gpu-1-24:898457] Rank 1 bound to package[1][core:72-143]
+[gpu-1-100:4180015] Rank 56 bound to package[0][core:0-71]
+[gpu-1-24:898457] Rank 2 bound to package[2][core:144-215]
+[gpu-1-100:4180015] Rank 57 bound to package[1][core:72-143]
+[gpu-1-100:4180015] Rank 58 bound to package[2][core:144-215]
+[gpu-1-24:898457] Rank 3 bound to package[3][core:216-287]
+[gpu-1-100:4180015] Rank 59 bound to package[3][core:216-287]
+using OMPI envars
+rank 36 local 0 gpu 0 nic cxi0
+[gpu-1-49:4174352] Rank 20 bound to package[0][core:0-71]
+[gpu-1-62:15458] Rank 28 bound to package[0][core:0-71]
+[gpu-1-49:4174352] Rank 21 bound to package[1][core:72-143]
+[gpu-1-49:4174352] Rank 22 bound to package[2][core:144-215]
+[gpu-1-62:15458] Rank 29 bound to package[1][core:72-143]
+[gpu-1-62:15458] Rank 30 bound to package[2][core:144-215]
+[gpu-1-49:4174352] Rank 23 bound to package[3][core:216-287]
+[gpu-1-62:15458] Rank 31 bound to package[3][core:216-287]
+using OMPI envars
+rank 8 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 44 local 0 gpu 0 nic cxi0
+using OMPI envars
+using OMPI envars
+rank 34 local 2 gpu 2 nic cxi2
+rank 37 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 12 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 46 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 40 local 0 gpu 0 nic cxi0
+rank 10 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 33 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 32 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 35 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 45 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 38 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 9 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 11 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 39 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 47 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 15 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 42 local 2 gpu 2 nic cxi2
+[gpu-1-48:4182283] Rank 16 bound to package[0][core:0-71]
+[gpu-1-48:4182283] Rank 17 bound to package[1][core:72-143]
+[gpu-1-48:4182283] Rank 18 bound to package[2][core:144-215]
+[gpu-1-48:4182283] Rank 19 bound to package[3][core:216-287]
+using OMPI envars
+rank 41 local 1 gpu 1 nic cxi1
+[gpu-1-89:4177573] Rank 48 bound to package[0][core:0-71]
+using OMPI envars
+[gpu-1-89:4177573] Rank 49 bound to package[1][core:72-143]
+rank 43 local 3 gpu 3 nic cxi3
+[gpu-1-89:4177573] Rank 50 bound to package[2][core:144-215]
+using OMPI envars
+rank 61 local 1 gpu 1 nic cxi1
+[gpu-1-89:4177573] Rank 51 bound to package[3][core:216-287]
+using OMPI envars
+rank 13 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 14 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 60 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 0 local 0 gpu 0 nic cxi0
+[gpu-1-90:497826] Rank 52 bound to package[0][core:0-71]
+using OMPI envars
+[gpu-1-90:497826] Rank 53 bound to package[1][core:72-143]
+rank 62 local 2 gpu 2 nic cxi2
+[gpu-1-90:497826] Rank 54 bound to package[2][core:144-215]
+[gpu-1-90:497826] Rank 55 bound to package[3][core:216-287]
+using OMPI envars
+rank 63 local 3 gpu 3 nic cxi3
+[gpu-1-25:910785] Rank 4 bound to package[0][core:0-71]
+[gpu-1-25:910785] Rank 5 bound to package[1][core:72-143]
+[gpu-1-25:910785] Rank 6 bound to package[2][core:144-215]
+[gpu-1-25:910785] Rank 7 bound to package[3][core:216-287]
+using OMPI envars
+rank 57 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 20 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 56 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 2 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 28 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 21 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 58 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 3 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 59 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 1 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 23 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 30 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 22 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 29 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 31 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 17 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 48 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 16 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 50 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 49 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 51 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 19 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 18 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 4 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 52 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 6 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 54 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 5 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 7 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 55 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 53 local 1 gpu 1 nic cxi1
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+
+# OSU NCCL-CUDA Allreduce Latency Test v7.5.2
+# Size       Avg Latency(us)
+4                      52.80
+8                      52.53
+16                     52.23
+32                     52.14
+64                     56.53
+128                    57.65
+256                    58.82
+512                    60.98
+1024                   68.80
+2048                   71.62
+4096                   84.02
+8192                   92.39
+16384                 115.60
+32768                 168.84
+65536                 232.30
+131072                190.81
+262144                317.41
+524288                412.17
+1048576               658.48
+-- srun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//xccl/collective/osu_xccl_allgather
+cpu-bind=MASK - gpu-1-48, task 16  0 [4183331]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-48, task 17  1 [4183332]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 48  0 [4178620]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-89, task 49  1 [4178621]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 18  2 [4183333]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 50  2 [4178622]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-48, task 19  3 [4183334]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-89, task 51  3 [4178623]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 56  0 [4181062]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-101, task 60  0 [4110161]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-24, task  0  0 [899175]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-100, task 57  1 [4181063]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 61  1 [4110162]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 44  0 [4150246]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-101, task 62  2 [4110163]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  1  1 [899176]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 45  1 [4150247]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-50, task 24  0 [4182592]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-100, task 58  2 [4181064]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-24, task  2  2 [899177]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 46  2 [4150248]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-50, task 25  1 [4182593]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-50, task 26  2 [4182594]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-100, task 59  3 [4181065]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-101, task 63  3 [4110164]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 20  0 [4175404]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-24, task  3  3 [899178]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-50, task 27  3 [4182595]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-75, task 47  3 [4150249]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-49, task 21  1 [4175405]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-42, task 12  0 [4111959]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-49, task 22  2 [4175406]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 17 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-63, task 32  0 [29618]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-42, task 13  1 [4111960]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 48 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-49, task 23  3 [4175407]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 18 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-63, task 33  1 [29619]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 16 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 19 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 50 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-42, task 14  2 [4111961]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 34  2 [29620]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  4  0 [911478]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 49 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 51 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-42, task 15  3 [4111962]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  5  1 [911479]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-63, task 35  3 [29621]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-25, task  6  2 [911480]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task  8  0 [4169115]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-25, task  7  3 [911481]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-26, task  9  1 [4169116]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 57 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-26, task 10  2 [4169117]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 0 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 27 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 56 local 0 gpu 0 nic cxi0
+cpu-bind=MASK - gpu-1-74, task 40  0 [4168690]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 46 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 58 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-74, task 41  1 [4168691]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 24 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 45 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 59 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 60 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 1 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-90, task 52  0 [498874]: mask 0xffffffffffffffffff set
+cpu-bind=MASK - gpu-1-26, task 11  3 [4169118]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 42  2 [4168692]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+using SLURM envars
+rank 62 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 61 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 63 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 26 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 25 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 3 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 2 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-90, task 53  1 [498875]: mask 0xffffffffffffffffff000000000000000000 set
+using SLURM envars
+rank 47 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 44 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 23 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-90, task 54  2 [498876]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-74, task 43  3 [4168693]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-62, task 28  0 [16508]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 20 local 0 gpu 0 nic cxi0
+using SLURM envars
+using SLURM envars
+rank 22 local 2 gpu 2 nic cxi2
+rank 21 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 15 local 3 gpu 3 nic cxi3
+cpu-bind=MASK - gpu-1-62, task 29  1 [16509]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-90, task 55  3 [498877]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 36  0 [4191432]: mask 0xffffffffffffffffff set
+using SLURM envars
+rank 13 local 1 gpu 1 nic cxi1
+cpu-bind=MASK - gpu-1-62, task 30  2 [16510]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 37  1 [4191433]: mask 0xffffffffffffffffff000000000000000000 set
+cpu-bind=MASK - gpu-1-64, task 38  2 [4191434]: mask 0xffffffffffffffffff000000000000000000000000000000000000 set
+#Using NCCL
+using SLURM envars
+rank 35 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 34 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 12 local 0 gpu 0 nic cxi0
+#Using NCCL
+#Using NCCL
+using SLURM envars
+using SLURM envars
+rank 33 local 1 gpu 1 nic cxi1
+rank 14 local 2 gpu 2 nic cxi2
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 32 local 0 gpu 0 nic cxi0
+#Using NCCL
+#Using NCCL
+cpu-bind=MASK - gpu-1-62, task 31  3 [16511]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+#Using NCCL
+using SLURM envars
+rank 6 local 2 gpu 2 nic cxi2
+cpu-bind=MASK - gpu-1-64, task 39  3 [4191435]: mask 0xffffffffffffffffff000000000000000000000000000000000000000000000000000000 set
+using SLURM envars
+rank 7 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 5 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 4 local 0 gpu 0 nic cxi0
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 10 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 11 local 3 gpu 3 nic cxi3
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 9 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 8 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 42 local 2 gpu 2 nic cxi2
+#Using NCCL
+using SLURM envars
+rank 40 local 0 gpu 0 nic cxi0
+#Using NCCL
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 43 local 3 gpu 3 nic cxi3
+#Using NCCL
+using SLURM envars
+rank 41 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 54 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 55 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 52 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 53 local 1 gpu 1 nic cxi1
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 36 local 0 gpu 0 nic cxi0
+#Using NCCL
+using SLURM envars
+rank 30 local 2 gpu 2 nic cxi2
+#Using NCCL
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 29 local 1 gpu 1 nic cxi1
+using SLURM envars
+rank 31 local 3 gpu 3 nic cxi3
+using SLURM envars
+rank 28 local 0 gpu 0 nic cxi0
+using SLURM envars
+rank 37 local 1 gpu 1 nic cxi1
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+using SLURM envars
+rank 38 local 2 gpu 2 nic cxi2
+using SLURM envars
+rank 39 local 3 gpu 3 nic cxi3
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+
+# OSU NCCL-CUDA Allgather Latency Test v7.5.2
+# Size       Avg Latency(us)
+1                     158.22
+2                     157.43
+4                     157.72
+8                     156.45
+16                    156.35
+32                    155.81
+64                    159.37
+128                   165.79
+256                   169.67
+512                   181.67
+1024                  212.58
+2048                  238.81
+4096                  288.81
+8192                  497.63
+16384                 719.20
+32768                 787.14
+65536                 801.58
+131072                826.19
+262144               1060.31
+524288               1551.07
+1048576              2892.13
+-- mpirun /cluster/projects/nn9999k/marcink/software/osu-eb/libexec/osu-micro-benchmarks//xccl/collective/osu_xccl_allgather
+[gpu-1-48:4184593] Rank 16 bound to package[0][core:0-71]
+[gpu-1-48:4184593] Rank 17 bound to package[1][core:72-143]
+[gpu-1-48:4184593] Rank 18 bound to package[2][core:144-215]
+[gpu-1-26:4170377] Rank 8 bound to package[0][core:0-71]
+[gpu-1-26:4170377] Rank 9 bound to package[1][core:72-143]
+[gpu-1-26:4170377] Rank 10 bound to package[2][core:144-215]
+[gpu-1-48:4184593] Rank 19 bound to package[3][core:216-287]
+[gpu-1-26:4170377] Rank 11 bound to package[3][core:216-287]
+[gpu-1-42:4113223] Rank 12 bound to package[0][core:0-71]
+[gpu-1-42:4113223] Rank 13 bound to package[1][core:72-143]
+[gpu-1-42:4113223] Rank 14 bound to package[2][core:144-215]
+[gpu-1-42:4113223] Rank 15 bound to package[3][core:216-287]
+[gpu-1-25:912161] Rank 4 bound to package[0][core:0-71]
+[gpu-1-25:912161] Rank 5 bound to package[1][core:72-143]
+[gpu-1-25:912161] Rank 6 bound to package[2][core:144-215]
+[gpu-1-25:912161] Rank 7 bound to package[3][core:216-287]
+[gpu-1-49:4176666] Rank 20 bound to package[0][core:0-71]
+[gpu-1-49:4176666] Rank 21 bound to package[1][core:72-143]
+[gpu-1-49:4176666] Rank 22 bound to package[2][core:144-215]
+[gpu-1-62:17770] Rank 28 bound to package[0][core:0-71]
+[gpu-1-62:17770] Rank 29 bound to package[1][core:72-143]
+[gpu-1-62:17770] Rank 30 bound to package[2][core:144-215]
+[gpu-1-49:4176666] Rank 23 bound to package[3][core:216-287]
+[gpu-1-62:17770] Rank 31 bound to package[3][core:216-287]
+[gpu-1-75:4151510] Rank 44 bound to package[0][core:0-71]
+[gpu-1-75:4151510] Rank 45 bound to package[1][core:72-143]
+[gpu-1-75:4151510] Rank 46 bound to package[2][core:144-215]
+[gpu-1-75:4151510] Rank 47 bound to package[3][core:216-287]
+[gpu-1-100:4182324] Rank 56 bound to package[0][core:0-71]
+[gpu-1-50:4183854] Rank 24 bound to package[0][core:0-71]
+[gpu-1-100:4182324] Rank 57 bound to package[1][core:72-143]
+[gpu-1-50:4183854] Rank 25 bound to package[1][core:72-143]
+[gpu-1-50:4183854] Rank 26 bound to package[2][core:144-215]
+[gpu-1-100:4182324] Rank 58 bound to package[2][core:144-215]
+[gpu-1-50:4183854] Rank 27 bound to package[3][core:216-287]
+[gpu-1-100:4182324] Rank 59 bound to package[3][core:216-287]
+using OMPI envars
+rank 17 local 1 gpu 1 nic cxi1
+[gpu-1-90:500136] Rank 52 bound to package[0][core:0-71]
+[gpu-1-90:500136] Rank 53 bound to package[1][core:72-143]
+[gpu-1-90:500136] Rank 54 bound to package[2][core:144-215]
+[gpu-1-63:30880] Rank 32 bound to package[0][core:0-71]
+[gpu-1-63:30880] Rank 33 bound to package[1][core:72-143]
+[gpu-1-63:30880] Rank 34 bound to package[2][core:144-215]
+[gpu-1-90:500136] Rank 55 bound to package[3][core:216-287]
+[gpu-1-63:30880] Rank 35 bound to package[3][core:216-287]
+using OMPI envars
+rank 12 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 8 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 16 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 13 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 10 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 18 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 19 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 11 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+rank 15 local 3 gpu 3 nic cxi3
+rank 9 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 14 local 2 gpu 2 nic cxi2
+[gpu-1-74:4169952] Rank 40 bound to package[0][core:0-71]
+[gpu-1-74:4169952] Rank 41 bound to package[1][core:72-143]
+[gpu-1-74:4169952] Rank 42 bound to package[2][core:144-215]
+[gpu-1-24:899902] Rank 0 bound to package[0][core:0-71]
+[gpu-1-24:899902] Rank 1 bound to package[1][core:72-143]
+[gpu-1-74:4169952] Rank 43 bound to package[3][core:216-287]
+[gpu-1-24:899902] Rank 2 bound to package[2][core:144-215]
+[gpu-1-24:899902] Rank 3 bound to package[3][core:216-287]
+[gpu-1-89:4179883] Rank 48 bound to package[0][core:0-71]
+[gpu-1-89:4179883] Rank 49 bound to package[1][core:72-143]
+[gpu-1-89:4179883] Rank 50 bound to package[2][core:144-215]
+[gpu-1-89:4179883] Rank 51 bound to package[3][core:216-287]
+[gpu-1-101:4111423] Rank 60 bound to package[0][core:0-71]
+[gpu-1-101:4111423] Rank 61 bound to package[1][core:72-143]
+[gpu-1-101:4111423] Rank 62 bound to package[2][core:144-215]
+[gpu-1-101:4111423] Rank 63 bound to package[3][core:216-287]
+using OMPI envars
+[gpu-1-64:4192706] Rank 36 bound to package[0][core:0-71]
+rank 4 local 0 gpu 0 nic cxi0
+[gpu-1-64:4192706] Rank 37 bound to package[1][core:72-143]
+[gpu-1-64:4192706] Rank 38 bound to package[2][core:144-215]
+[gpu-1-64:4192706] Rank 39 bound to package[3][core:216-287]
+using OMPI envars
+using OMPI envars
+rank 57 local 1 gpu 1 nic cxi1
+rank 46 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 20 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 28 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 6 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 56 local 0 gpu 0 nic cxi0
+rank 5 local 1 gpu 1 nic cxi1
+using OMPI envars
+using OMPI envars
+rank 21 local 1 gpu 1 nic cxi1
+rank 30 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 24 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 7 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+rank 23 local 3 gpu 3 nic cxi3
+rank 32 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 22 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 44 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 31 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 29 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 45 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 34 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 33 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 47 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 27 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+rank 52 local 0 gpu 0 nic cxi0
+rank 54 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 35 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 59 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+rank 58 local 2 gpu 2 nic cxi2
+rank 26 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 25 local 1 gpu 1 nic cxi1
+using OMPI envars
+using OMPI envars
+rank 53 local 1 gpu 1 nic cxi1
+rank 55 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 40 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 1 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 42 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 48 local 0 gpu 0 nic cxi0
+using OMPI envars
+using OMPI envars
+rank 0 local 0 gpu 0 nic cxi0
+rank 61 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 36 local 0 gpu 0 nic cxi0
+using OMPI envars
+using OMPI envars
+rank 3 local 3 gpu 3 nic cxi3
+using OMPI envars
+rank 50 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 37 local 1 gpu 1 nic cxi1
+rank 49 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 2 local 2 gpu 2 nic cxi2
+using OMPI envars
+using OMPI envars
+rank 60 local 0 gpu 0 nic cxi0
+using OMPI envars
+rank 43 local 3 gpu 3 nic cxi3
+rank 41 local 1 gpu 1 nic cxi1
+using OMPI envars
+rank 62 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 51 local 3 gpu 3 nic cxi3
+using OMPI envars
+using OMPI envars
+rank 63 local 3 gpu 3 nic cxi3
+rank 38 local 2 gpu 2 nic cxi2
+using OMPI envars
+rank 39 local 3 gpu 3 nic cxi3
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+#Using NCCL
+
+# OSU NCCL-CUDA Allgather Latency Test v7.5.2
+# Size       Avg Latency(us)
+1                     158.93
+2                     157.19
+4                     158.36
+8                     156.87
+16                    157.26
+32                    156.24
+64                    159.76
+128                   166.22
+256                   169.20
+512                   182.62
+1024                  210.66
+2048                  240.43
+4096                  290.26
+8192                  500.18
+16384                 721.09
+32768                 787.58
+65536                 801.37
+131072                803.23
+262144               1024.26
+524288               1649.29
+1048576              2892.11
+
+Job 193947 consumed 0.0 billing hours and 20.2 GPU hours from project nn9997k.
+
+Submitted 2026-03-02T11:01:09; waited 3.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 30.0 minutes
+Elapsed wallclock time:   18.9 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID                 CPUs  Tasks  CPU util                Start   Elapsed  Exit status
+193947             4608            0.0 %  2026-03-02T11:01:12  1136.0 s  0
+193947.batch        288      1     0.0 %  2026-03-02T11:01:12  1136.0 s  0
+193947.gpubind.sh  4608     64     0.0 %  2026-03-02T11:01:15   134.0 s  0
+193947.prted       4608     16     0.0 %  2026-03-02T11:01:12   269.0 s  0
+193947.gpubind.sh  4608     64     0.0 %  2026-03-02T11:05:41    17.0 s  0
+193947.prted       4608     16     0.0 %  2026-03-02T11:01:12   302.0 s  0
+193947.gpubind.sh  4608     64     0.0 %  2026-03-02T11:06:14   109.0 s  0
+193947.prted       4608     16     0.0 %  2026-03-02T11:01:12   518.0 s  0
+193947.gpubind.sh  4608     64     0.0 %  2026-03-02T11:09:50   133.0 s  0
+193947.prted       4608     16     0.0 %  2026-03-02T11:01:12   782.0 s  0
+193947.gpubind.sh  4608     64     0.0 %  2026-03-02T11:14:14    17.0 s  0
+193947.prted       4608     16     0.0 %  2026-03-02T11:01:12   815.0 s  0
+193947.gpubind.sh  4608     64     0.0 %  2026-03-02T11:14:47   109.0 s  0
+193947.prted       4608     16     0.0 %  2026-03-02T11:01:12  1032.0 s  0
+193947.gpubind.sh  4608     64     0.0 %  2026-03-02T11:18:25    26.0 s  0
+193947.prted       4608     16     0.0 %  2026-03-02T11:01:12  1082.0 s  0
+193947.gpubind.sh  4608     64     0.0 %  2026-03-02T11:19:14    11.0 s  0
+193947.prted       4608     16     0.0 %  2026-03-02T11:01:12  1105.0 s  0
+193947.gpubind.sh  4608     64     0.0 %  2026-03-02T11:19:37    15.0 s  0
+193947.prted       4608     16     0.0 %  2026-03-02T11:01:12  1137.0 s  0
+
+Used CPU time:   2.8 CPU seconds
+Unused CPU time: 60.6 CPU days
+
+Memory statistics, in GiB:
+ID                  Alloc   Usage
+193947             11200.0        
+193947.batch        700.0     0.2
+193947.gpubind.sh  11200.0    36.7
+193947.prted       11200.0    36.3
+193947.gpubind.sh  11200.0    16.1
+193947.prted       11200.0    16.3
+193947.gpubind.sh  11200.0    27.6
+193947.prted       11200.0    28.0
+193947.gpubind.sh  11200.0    36.2
+193947.prted       11200.0    36.5
+193947.gpubind.sh  11200.0    16.0
+193947.prted       11200.0    16.3
+193947.gpubind.sh  11200.0    27.6
+193947.prted       11200.0    28.0
+193947.gpubind.sh  11200.0    55.6
+193947.prted       11200.0    54.7
+193947.gpubind.sh  11200.0    47.0
+193947.prted       11200.0    41.5
+193947.gpubind.sh  11200.0    47.0
+193947.prted       11200.0    41.5
+
+Job 193947 completed at Mon Mar 2 11:20:11 CET 2026

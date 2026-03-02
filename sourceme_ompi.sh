@@ -26,7 +26,10 @@ run_osu_cmd() {
     fi
 
     echo -- mpirun "$fullprog" "${args[@]}"
-    mpirun -bind-to core -map-by numa --report-bindings $GPUBIND "$fullprog" "${args[@]}" | tee "$OUTPUT_DIR/$logname${logsuffix}_mpirun.txt"
+    # -bind-to core destroys performance with nccl. Loooks like another thread running.
+    # gpu-1-62:4117765:4118287 [0] NCCL INFO [Proxy Service] Device 0 CPU core 73
+    # gpu-1-62:4117765:4118290 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 74
+    mpirun -bind-to numa -map-by numa --report-bindings $GPUBIND "$fullprog" "${args[@]}" | tee "$OUTPUT_DIR/$logname${logsuffix}_mpirun.txt"
 }
 
 function change_dir() {
