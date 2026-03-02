@@ -1,0 +1,24 @@
+# OSU MPI All-to-All Personalized Exchange Latency Test v7.5.2
+# Datatype: MPI_CHAR.
+# Size       Avg Latency(us)        Validation
+1                      50.41              Pass
+2                      50.84              Pass
+4                      52.97              Pass
+8                      53.99              Pass
+16                     56.31              Pass
+32                     56.15              Pass
+64                     56.89              Pass
+128                    58.17              Pass
+256                    61.86              Pass
+512                    49.30              Pass
+1024                   52.26              Pass
+2048                   55.30              Pass
+4096                   59.80              Pass
+8192                   60.27              Pass
+16384                  78.86              Pass
+32768                  91.55              Pass
+65536                 125.88              Pass
+131072                254.12              Pass
+262144                512.54              Pass
+524288               1109.84              Pass
+1048576              2330.00              Pass
