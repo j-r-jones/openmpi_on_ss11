@@ -34,3 +34,10 @@ cd aws-ofi-nccl-${VER}
 ./configure --prefix=${PREFIX_NCCL} --with-cuda=${CUDA_HOME} --with-libfabric=${PREFIX_LIBFABRIC} 
 make -j install
 cd ..
+
+# to compile OSU with NCCL support:
+# - with cray mpi
+# ./configure CC=cc CXX=CC --prefix=$PREFIX_OSU/osu-craype/ --with-cuda=${CUDA_HOME} --with-nccl=${PREFIX_NCCL} --enable-ncclomb --with-cuda-include=${CUDA_HOME}/include --with-cuda-libpath=${CUDA_HOME}/targets/x86_64-linux/lib
+#
+# - with OpenMPI
+# ./configure CC=mpicc CXX=mpicxx --prefix=$PREFIX_OSU/osu-ompi/ --with-cuda=${CUDA_HOME} --with-nccl=$NCCL_HOME --enable-ncclomb --with-cuda-include=${CUDA_HOME}/include --with-cuda-libpath=${CUDA_HOME}/targets/x86_64-linux/lib
