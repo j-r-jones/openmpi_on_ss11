@@ -44,6 +44,7 @@ case "$USER" in
     lazzaroa)
         XPMEM_OMPI="--with-cray-xpmem=yes --with-xpmem=${XPMEM_ROOT}"
         GPU_OMPI="--with-rocm=$ROCM_PATH"
+	OSU_COMPILE_FLAGS="--enable-rocm"
         ;;
     marcink)
 	# seems to be needed. slurm race?
@@ -74,5 +75,9 @@ export PATH=${PREFIX_OMPI}/bin:${PATH}
 export LD_LIBRARY_PATH=${PREFIX_OMPI}/lib:${LD_LIBRARY_PATH}
 export PKG_CONFIG_PATH=$PREFIX_OMPI/lib/pkgconfig:$PKG_CONFIG_PATH
 export MANPATH=$PREFIX_OMPI/man:$MANPATH
+
+export OSU_INSTALL=$ROOT_DIR/osu/osu-ompi/
+export OSU_HOME=$OSU_INSTALL/libexec/osu-micro-benchmarks/
+export GPUBIND=$ROOT_DIR/select_gpu.sh
 
 cd $OLDDIR

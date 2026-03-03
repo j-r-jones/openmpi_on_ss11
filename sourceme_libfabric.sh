@@ -44,7 +44,7 @@ export CXXFLAGS="-g -O -I$PREFIX_CXI/include $GPU_INCLUDE"
 export FC=gfortran-14
 export FCFLAGS="-O -I$PREFIX_CXI/include $GPU_INCLUDE"
 
-export LDFLAGS="-g -O -L$PREFIX_CXI/lib"
+export LDFLAGS="-g -O -L$PREFIX_CXI/lib -L$ROCM_PATH/lib"
 
 export PATH=${PREFIX_CXI}/bin:${PATH}
 export LD_LIBRARY_PATH=${PREFIX_CXI}/lib:${LD_LIBRARY_PATH}

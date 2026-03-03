@@ -26,6 +26,9 @@ run_osu_cmd() {
 
 export PE_LD_LIBRARY_PATH=system # Force update of the LD_LIBRARY_PATH, instead of CRAY_LD_LIBRARY_PATH
 
+export ROOT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P )
+echo "ROOT_DIR = "$ROOT_DIR
+
 case "$USER" in
     lazzaroa)
 	module load PrgEnv-gnu
@@ -34,6 +37,7 @@ case "$USER" in
 	module swap craype-x86-rome craype-x86-trento
 	module load craype-accel-amd-gfx90a
 	module load rocm
+	OSU_COMPILE_FLAGS="--enable-rocm"
         ;;
     marcink)
 	ml reset
@@ -53,3 +57,7 @@ case "$USER" in
 esac
 
 module list
+
+export OSU_INSTALL=$ROOT_DIR/osu/osu-craype/
+export OSU_HOME=$OSU_INSTALL/libexec/osu-micro-benchmarks/
+export GPUBIND=$ROOT_DIR/select_gpu.sh
