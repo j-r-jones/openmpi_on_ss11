@@ -18,6 +18,7 @@ export FI_CXI_RX_MATCH_MODE=hybrid
 # export FI_LOG_LEVEL=debug
 
 CMDS=("osu_bibw -b multiple D D" "osu_latency D D" "osu_bibw -b multiple H H" "osu_latency H H")
+#CMDS=("osu_bibw D D" "osu_latency D D" "osu_bibw H H" "osu_latency H H")
 for cmd in "${CMDS[@]}"; do
     run_osu_cmd "$cmd" "mpi/pt2pt" "_singlenode"
 done

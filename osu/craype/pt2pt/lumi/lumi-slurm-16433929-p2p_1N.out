@@ -1,0 +1,163 @@
+ROOT_DIR = /pfs/lustref1/flash/project_462000031/lazzaroa/openmpi_on_ss11
+ROOT_DIR = /pfs/lustref1/flash/project_462000031/lazzaroa/openmpi_on_ss11
+
+Lmod is automatically replacing "cce/19.0.0" with "gcc-native/14.2".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.6.0" with "PrgEnv-gnu/8.6.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-libsci/25.03.0     2) cray-mpich/8.1.32
+
+
+The following have been reloaded with a version change:
+  1) cray-mpich/8.1.32 => cray-mpich/9.0.1
+
+
+Currently Loaded Modules:
+  1) craype-network-ofi                  10) cray-dsmml/0.3.1
+  2) perftools-base/25.03.0              11) cray-libsci/25.03.0
+  3) xpmem/2.11.5-1.3_g73ade43320bc      12) PrgEnv-gnu/8.6.0
+  4) ModuleLabel/label              (S)  13) libfabric/1.22.0
+  5) lumi-tools/24.05               (S)  14) cray-mpich/9.0.1
+  6) init-lumi/0.2                  (S)  15) craype-x86-trento
+  7) cray-python/3.11.7                  16) craype-accel-amd-gfx90a
+  8) gcc-native/14.2                     17) rocm/6.3.4
+  9) craype/2.7.34
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+-- srun /pfs/lustref1/flash/project_462000031/lazzaroa/openmpi_on_ss11/osu/osu-craype//libexec/osu-micro-benchmarks//mpi/pt2pt/osu_bibw -c -b multiple D D
+cpu-bind=MASK - nid005440, task  0  0 [69510]: mask 0xfefe000000000000fefe set
+cpu-bind=MASK - nid005440, task  1  1 [69511]: mask 0xfefe000000000000fefe0000 set
+0 gpu 4 2
+1 gpu 2 2
+
+# OSU MPI-ROCM Bi-Directional Bandwidth Test v7.5.2
+# Datatype: MPI_CHAR.
+# Size      Bandwidth (MB/s)        Validation
+1                       4.70              Pass
+2                      10.23              Pass
+4                      18.45              Pass
+8                      34.17              Pass
+16                     73.55              Pass
+32                    137.13              Pass
+64                    274.47              Pass
+128                   451.38              Pass
+256                   869.47              Pass
+512                  1404.65              Pass
+1024                    2.24              Pass
+2048                    4.46              Pass
+4096                    8.89              Pass
+8192                  128.28              Pass
+16384                 259.08              Pass
+32768                 519.90              Pass
+65536                1027.32              Pass
+131072               2036.11              Pass
+262144               4091.77              Pass
+524288               8287.99              Pass
+1048576             16320.44              Pass
+2097152             32668.20              Pass
+Memory access fault by GPU node-8 (Agent handle: 0x5c0fd0) on address 0x153d0ba00000. Reason: Unknown.
+srun: error: nid005440: task 1: Aborted (core dumped)
+srun: Terminating StepId=16433929.0
+slurmstepd: error: *** STEP 16433929.0 ON nid005440 CANCELLED AT 2026-03-03T10:10:54 ***
+srun: error: nid005440: task 0: Terminated
+srun: Force Terminated StepId=16433929.0
+-- srun /pfs/lustref1/flash/project_462000031/lazzaroa/openmpi_on_ss11/osu/osu-craype//libexec/osu-micro-benchmarks//mpi/pt2pt/osu_latency -c D D
+cpu-bind=MASK - nid005440, task  0  0 [72132]: mask 0xfefe000000000000fefe set
+cpu-bind=MASK - nid005440, task  1  1 [72133]: mask 0xfefe000000000000fefe0000 set
+0 gpu 4 2
+1 gpu 2 2
+
+# OSU MPI-ROCM Latency Test v7.5.2
+# Datatype: MPI_CHAR.
+# Size       Avg Latency(us)        Validation
+1                       0.43              Pass
+2                       0.43              Pass
+4                       0.43              Pass
+8                       0.43              Pass
+16                      0.55              Pass
+32                      0.57              Pass
+64                      0.55              Pass
+128                     0.72              Pass
+256                     0.74              Pass
+512                     0.83              Pass
+1024                    2.62              Pass
+2048                    2.69              Pass
+4096                    2.64              Pass
+8192                   13.31              Pass
+16384                  13.22              Pass
+32768                  13.45              Pass
+65536                  13.78              Pass
+131072                 14.39              Pass
+262144                 16.01              Pass
+524288                 19.48              Pass
+1048576                27.55              Pass
+2097152                42.79              Pass
+4194304                73.27              Pass
+-- srun /pfs/lustref1/flash/project_462000031/lazzaroa/openmpi_on_ss11/osu/osu-craype//libexec/osu-micro-benchmarks//mpi/pt2pt/osu_bibw -c -b multiple H H
+cpu-bind=MASK - nid005440, task  0  0 [72806]: mask 0xfefe000000000000fefe set
+cpu-bind=MASK - nid005440, task  1  1 [72807]: mask 0xfefe000000000000fefe0000 set
+0 gpu 4 2
+1 gpu 2 2
+
+# OSU MPI Bi-Directional Bandwidth Test v7.5.2
+# Datatype: MPI_CHAR.
+# Size      Bandwidth (MB/s)        Validation
+1                       5.63              Pass
+2                      11.16              Pass
+4                      22.55              Pass
+8                      45.35              Pass
+16                     82.29              Pass
+32                    165.19              Pass
+64                    327.86              Pass
+128                   460.59              Pass
+256                   884.01              Pass
+512                  1433.43              Pass
+1024                 2621.38              Pass
+2048                 5010.76              Pass
+4096                 9416.59              Pass
+8192                14404.80              Pass
+16384               22372.66              Pass
+32768               31462.43              Pass
+65536               42421.79              Pass
+131072              55356.32              Pass
+262144              42407.49              Pass
+524288              28234.96              Pass
+1048576             22945.99              Pass
+2097152             20889.01              Pass
+4194304             19645.73              Pass
+-- srun /pfs/lustref1/flash/project_462000031/lazzaroa/openmpi_on_ss11/osu/osu-craype//libexec/osu-micro-benchmarks//mpi/pt2pt/osu_latency -c H H
+cpu-bind=MASK - nid005440, task  0  0 [73500]: mask 0xfefe000000000000fefe set
+cpu-bind=MASK - nid005440, task  1  1 [73501]: mask 0xfefe000000000000fefe0000 set
+1 gpu 2 2
+0 gpu 4 2
+
+# OSU MPI Latency Test v7.5.2
+# Datatype: MPI_CHAR.
+# Size       Avg Latency(us)        Validation
+1                       0.44              Pass
+2                       0.44              Pass
+4                       0.45              Pass
+8                       0.44              Pass
+16                      0.61              Pass
+32                      0.61              Pass
+64                      0.61              Pass
+128                     0.81              Pass
+256                     0.83              Pass
+512                     0.86              Pass
+1024                    0.91              Pass
+2048                    0.91              Pass
+4096                    0.95              Pass
+8192                    1.10              Pass
+16384                   1.32              Pass
+32768                   1.68              Pass
+65536                   2.30              Pass
+131072                  3.60              Pass
+262144                  6.98              Pass
+524288                 18.32              Pass
+1048576                34.04              Pass
+2097152                64.67              Pass
+4194304               131.83              Pass
