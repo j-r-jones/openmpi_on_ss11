@@ -46,9 +46,11 @@ case "$USER" in
 	ml swap PrgEnv-cray PrgEnv-gnu
 	ml swap gcc-native/13.2
 	ml load craype-accel-nvidia90
+	ml list
 	export OSU_HOME=/cluster/projects/nn9999k/marcink/software/osu-craype/libexec/osu-micro-benchmarks/
 	export GPUBIND=/cluster/home/marcink/hpe_cug_paper/gpubind.sh
 	export LD_LIBRARY_PATH=/cluster/home/marcink/software/nccl/nccl-2.29-craype/lib/:$LD_LIBRARY_PATH
+	return 0
 	;;
     *)
         echo "User not recongnized"
