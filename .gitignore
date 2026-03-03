@@ -3,3 +3,5 @@ install_cxi/
 install_libfabric/
 openmpi5/
 install_ompi/
+core
+gpucore.*
