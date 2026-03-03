@@ -29,5 +29,5 @@ ${RUN_COMMAND} ./${APP}_ompi.c.x | sort -n -k 4 -k 6
 if [ -d hpcat/install/share/modulefiles ]; then
     module use hpcat/install/share/modulefiles
     module load hpcat
-    ${RUN_COMMANDS} hpcat -c --no-banner
+    ${RUN_COMMAND} hpcat -c --no-banner
 fi
