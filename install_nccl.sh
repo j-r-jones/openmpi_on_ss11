@@ -22,7 +22,7 @@ wget https://github.com/NVIDIA/nccl/archive/refs/tags/v${VER}-1.tar.gz
 tar xvf v${VER}-1.tar.gz
 cd nccl-${VER}-1
 
-make -j src.build NVCC_GENCODE="-gencode=arch=compute_90,code=sm_90" CC=cc CXX=CC
+make -j src.build NVCC_GENCODE="-gencode=arch=compute_90,code=sm_90"
 mv build/* $PREFIX_NCCL
 cd ..
 
