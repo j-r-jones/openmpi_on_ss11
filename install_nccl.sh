@@ -64,6 +64,10 @@ cd aws-ofi-nccl-${VER}
 make -j install
 cd ..
 
+# Generate module files
+echo "Generating NCCL module files..."
+$ROOT_DIR/generate_modulefiles.sh nccl
+
 # to compile OSU with NCCL support:
 # - with cray mpi
 # ./configure CC=cc CXX=CC --prefix=$PREFIX_OSU/osu-craype/ --with-cuda=${CUDA_HOME} --with-nccl=${PREFIX_NCCL} --enable-ncclomb --with-cuda-include=${CUDA_HOME}/include --with-cuda-libpath=${CUDA_HOME}/targets/x86_64-linux/lib

@@ -70,3 +70,7 @@ for USE_CPE in 0 1; do
 	CXX=hipcc ./install.sh --rocm_home=$ROCM_PATH --rccl_home=$PREFIX_RCCL --mpi --mpi_home="${MPI_HOME}" --hip_compiler=$(which hipcc) --gpu_targets=gfx90a
 )
 done
+
+# Generate module files
+echo "Generating RCCL module files..."
+$ROOT_DIR/generate_modulefiles.sh rccl

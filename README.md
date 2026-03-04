@@ -4,6 +4,31 @@
 > [!CAUTION]
 > This repository is not an official guide on how to install OpenMPI
 
+## Quick Start
+
+1. **Install software** (in dependency order):
+   ```bash
+   ./install_libfabric.sh
+   ./install_ompi.sh
+   # Optional: ./install_nccl.sh OR ./install_rccl.sh
+   ```
+
+2. **Use modules** (recommended):
+   ```bash
+   source ./setup_modules.sh
+   module load libfabric openmpi
+   ```
+   
+   **OR use source scripts** (alternative):
+   ```bash
+   source sourceme_libfabric.sh
+   source sourceme_ompi.sh
+   ```
+
+## Module Files
+
+Installation scripts automatically generate portable module files for easy environment setup. See [modulefiles/README.md](modulefiles/README.md) for details.
+
 ## Dependencies
 
 If not relying on system-installed libraries, then these scripts must be run in the correct order.  That is:
