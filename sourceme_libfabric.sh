@@ -149,14 +149,14 @@ case "$SYSTEM_CONFIG" in
 		# Try different XPMEM module variations
 		if module avail cray-xpmem 2>&1 | grep -q "cray-xpmem"; then
 			module load cray-xpmem
-			XPMEM_ROOT=$(pkg-config --variable=libdir cray-xpmem)
+			XPMEM_ROOT=$(pkg-config --variable=prefix cray-xpmem)
 			XPMEM_LIBFABRIC="--enable-xpmem=${XPMEM_ROOT}"
-			echo "XPMEM Lib path  = "$XPMEM_ROOT
+			echo "XPMEM prefix path = "$XPMEM_ROOT
 		elif module avail xpmem 2>&1 | grep -q "xpmem"; then
 			module load xpmem
-			XPMEM_ROOT=$(pkg-config --variable=libdir xpmem)
+			XPMEM_ROOT=$(pkg-config --variable=prefix xpmem)
 			XPMEM_LIBFABRIC="--enable-xpmem=${XPMEM_ROOT}"
-			echo "XPMEM Lib path  = "$XPMEM_ROOT
+			echo "XPMEM prefix path = "$XPMEM_ROOT
 		else
 			echo "Warning: No XPMEM modules found (cray-xpmem/xpmem), proceeding without XPMEM support"
 			XPMEM_LIBFABRIC=""
@@ -221,20 +221,20 @@ case "$SYSTEM_CONFIG" in
 		# Try different XPMEM module variations
 		if module avail cray-xpmem 2>&1 | grep -q "cray-xpmem"; then
 			module load cray-xpmem
-			XPMEM_ROOT=$(pkg-config --variable=libdir cray-xpmem 2>/dev/null)
+			XPMEM_ROOT=$(pkg-config --variable=prefix cray-xpmem 2>/dev/null)
 			if [[ -n "$XPMEM_ROOT" ]]; then
 				XPMEM_LIBFABRIC="--enable-xpmem=${XPMEM_ROOT}"
-				echo "XPMEM Lib path  = "$XPMEM_ROOT
+				echo "XPMEM prefix path = "$XPMEM_ROOT
 			else
 				echo "Warning: cray-xpmem loaded but pkg-config failed"
 				XPMEM_LIBFABRIC=""
 			fi
 		elif module avail xpmem 2>&1 | grep -q "xpmem"; then
 			module load xpmem
-			XPMEM_ROOT=$(pkg-config --variable=libdir xpmem 2>/dev/null)
+			XPMEM_ROOT=$(pkg-config --variable=prefix xpmem 2>/dev/null)
 			if [[ -n "$XPMEM_ROOT" ]]; then
 				XPMEM_LIBFABRIC="--enable-xpmem=${XPMEM_ROOT}"
-				echo "XPMEM Lib path  = "$XPMEM_ROOT
+				echo "XPMEM prefix path = "$XPMEM_ROOT
 			else
 				echo "Warning: xpmem loaded but pkg-config failed"
 				XPMEM_LIBFABRIC=""
