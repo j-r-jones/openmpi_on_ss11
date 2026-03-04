@@ -4,6 +4,14 @@
 > [!CAUTION]
 > This repository is not an official guide on how to install OpenMPI
 
+## Dependencies
+
+If not relying on system-installed libraries, then these scripts must be run in the correct order.  That is:
+
+1. `./install_libfabric.sh` (if building libfabric from source)
+2. `./install_nccl.sh` (if building NCCL from source) OR `./install_rccl.sh` (if building RCCL from source)
+4. `./install_openmpi.sh` (must be run after libfabric and GPU libraries are configured)
+
 ## Configuration
 
 ### Libfabric Installation Selection
