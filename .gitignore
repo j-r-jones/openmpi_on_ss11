@@ -9,3 +9,10 @@ install_rccl/
 install_rccl_cpe/
 core
 gpucore.*
+.github
+.vscode*
+*.log
+*.out
+*.o
+*.so
+*.exe
