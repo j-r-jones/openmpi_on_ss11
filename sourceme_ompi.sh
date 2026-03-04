@@ -47,13 +47,23 @@ source sourceme_libfabric.sh
 
 case "$SYSTEM_CONFIG" in
     "cray_rocm")
-        XPMEM_OMPI="--with-cray-xpmem=yes --with-xpmem=${XPMEM_ROOT}"
+        if [[ -n "$XPMEM_ROOT" ]]; then
+            XPMEM_OMPI="--with-xpmem=${XPMEM_ROOT}"
+            echo "Using XPMEM: $XPMEM_ROOT"
+        else
+            echo "Warning: XPMEM_ROOT not set, proceeding without XPMEM support"
+            XPMEM_OMPI=""
+        fi
         GPU_OMPI="--with-rocm=$ROCM_PATH"
 	OSU_COMPILE_FLAGS="--enable-rocm"
         ;;
     "cray_cuda")
         if [[ -n "$XPMEM_ROOT" ]]; then
-            XPMEM_OMPI="--with-cray-xpmem=yes --with-xpmem=${XPMEM_ROOT}"
+            XPMEM_OMPI="--with-xpmem=${XPMEM_ROOT}"
+            echo "Using XPMEM: $XPMEM_ROOT"
+        else
+            echo "Warning: XPMEM_ROOT not set, proceeding without XPMEM support"
+            XPMEM_OMPI=""
         fi
         if [[ -n "$CUDA_HOME" ]]; then
             GPU_OMPI="--with-cuda=$CUDA_HOME"
