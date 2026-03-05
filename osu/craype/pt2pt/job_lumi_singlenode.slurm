@@ -10,6 +10,7 @@
 #SBATCH --time=0:30:00
 
 # Select 2 GPUs
+export MPICH_OFI_NIC_POLICY=GPU
 export SLURM_CPUS_PER_TASK=14
 export GPUSID="4 2"
 
