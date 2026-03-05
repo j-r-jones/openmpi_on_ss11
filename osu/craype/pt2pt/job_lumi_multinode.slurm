@@ -7,6 +7,7 @@
 #SBATCH --exclusive
 #SBATCH --network=single_node_vni
 #SBATCH -o lumi-slurm-%j-p2p_2N.out
-#SBATCH --time=0:10:00
+#SBATCH --time=0:30:00
 
+export MPICH_OFI_NIC_POLICY=GPU
 ./run_multinode.sh
