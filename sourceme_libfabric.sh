@@ -22,7 +22,7 @@ case "$USER" in
 	    ml load libfabric/2.3.1-GCCcore-14.3.0
 	    return 0
 	fi
-	
+
 	# with cray mpi use the pre-installed libfabric
 	export PREFIX_LIBFABRIC=/opt/cray/libfabric/1.22.0/
 	return 0
@@ -55,8 +55,9 @@ export PATH=${PREFIX_CXI}/bin:${PATH}
 export LD_LIBRARY_PATH=${PREFIX_CXI}/lib:${LD_LIBRARY_PATH}
 export PKG_CONFIG_PATH=$PREFIX_CXI/lib/pkgconfig:$PKG_CONFIG_PATH
 export MANPATH=$PREFIX_CXI/man:$MANPATH
+export MANPATH=$PREFIX_CXI/share/man:$MANPATH
 
 export PATH=${PREFIX_LIBFABRIC}/bin:${PATH}
 export LD_LIBRARY_PATH=${PREFIX_LIBFABRIC}/lib:${LD_LIBRARY_PATH}
 export PKG_CONFIG_PATH=$PREFIX_LIBFABRIC/lib/pkgconfig:$PKG_CONFIG_PATH
-export MANPATH=$PREFIX_LIBFABRIC/man:$MANPATH
+export MANPATH=$PREFIX_LIBFABRIC/share/man:$MANPATH

@@ -25,11 +25,12 @@ run_osu_cmd() {
         srun --cpu-bind=verbose,cores $GPUBIND "$fullprog" "${args[@]}" | tee "$OUTPUT_DIR/$logname${logsuffix}_srun.txt"
     fi
 
-    # echo -- mpirun "$fullprog" "${args[@]}"
+    echo -- mpirun "$fullprog" "${args[@]}"
     # -bind-to core destroys performance with nccl. Loooks like another thread running.
     # gpu-1-62:4117765:4118287 [0] NCCL INFO [Proxy Service] Device 0 CPU core 73
     # gpu-1-62:4117765:4118290 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 74
-    # mpirun -bind-to numa -map-by numa --report-bindings $GPUBIND "$fullprog" "${args[@]}" | tee "$OUTPUT_DIR/$logname${logsuffix}_mpirun.txt"
+    BINDING=${BINDING:-"--bind-to numa --map-by numa"}
+    mpirun ${BINDING} --report-bindings $GPUBIND "$fullprog" "${args[@]}" | tee "$OUTPUT_DIR/$logname${logsuffix}_mpirun.txt"
 }
 
 function change_dir() {
@@ -76,7 +77,7 @@ export OMPI_DIR=$ROOT_DIR/openmpi5
 export PATH=${PREFIX_OMPI}/bin:${PATH}
 export LD_LIBRARY_PATH=${PREFIX_OMPI}/lib:${LD_LIBRARY_PATH}
 export PKG_CONFIG_PATH=$PREFIX_OMPI/lib/pkgconfig:$PKG_CONFIG_PATH
-export MANPATH=$PREFIX_OMPI/man:$MANPATH
+export MANPATH=$PREFIX_OMPI/share/man:$MANPATH
 
 export OSU_INSTALL=$ROOT_DIR/osu/osu-ompi/
 export OSU_HOME=$OSU_INSTALL/libexec/osu-micro-benchmarks/
