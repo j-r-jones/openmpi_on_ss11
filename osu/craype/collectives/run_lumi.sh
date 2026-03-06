@@ -1,7 +1,8 @@
 #!/bin/bash
 
-for NNODES in 1 2 4 8 16 32 64; do
+#for NNODES in 1 2 4 8 16 32 64; do
 #for NNODES in 1 2; do
+for NNODES in 64; do
 sbatch -N $NNODES <<EOF
 #!/bin/bash
 #SBATCH --ntasks-per-node=8
@@ -38,7 +39,8 @@ echo "============"
 
 env
 
-for FI_CXI_RX_MATCH_MODE in hardware software hybrid; do
+#for FI_CXI_RX_MATCH_MODE in hardware software hybrid; do
+for FI_CXI_RX_MATCH_MODE in hybrid; do
     export FI_CXI_RX_MATCH_MODE=\$FI_CXI_RX_MATCH_MODE
 
     SUFFIX="_n\${SLURM_NTASKS}_\${FI_CXI_RX_MATCH_MODE}_\${SLURM_JOB_ID}"
