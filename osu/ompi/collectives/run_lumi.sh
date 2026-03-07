@@ -1,8 +1,8 @@
 #!/bin/bash
 
-for NNODES in 1 2 4 8 16 32 64; do
+#for NNODES in 1 2 4 8 16 32 64; do
 #for NNODES in 4; do
-#for NNODES in 64; do
+for NNODES in 64; do
 sbatch -N $NNODES <<EOF
 #!/bin/bash
 #SBATCH --ntasks-per-node=8
@@ -12,7 +12,7 @@ sbatch -N $NNODES <<EOF
 #SBATCH --exclusive
 #SBATCH --network=single_node_vni
 #SBATCH -o lumi-slurm-%j-coll_N${NNODES}.out
-#SBATCH --time=0:30:00
+#SBATCH --time=1:30:00
 
 # load runtime environment
 ORIGINAL_SCRIPT=\$(scontrol show job "\$SLURM_JOB_ID" | awk -F= '/Command=/{print \$2}')
