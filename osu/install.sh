@@ -12,6 +12,7 @@ cd osu-micro-benchmarks-$VERSION
     make -j 10 install
 )
 
+if false; then
 (
     USE_CPE=1 source ../../sourceme_rccl.sh
     rm -rf $OSU_INSTALL
@@ -19,3 +20,4 @@ cd osu-micro-benchmarks-$VERSION
     ./configure --prefix=$OSU_INSTALL CC=cc CXX=CC CFLAGS=-O3 CXXFLAGS=-O3 ${OSU_COMPILE_FLAGS}
     make -j 10 install
 )
+fi
